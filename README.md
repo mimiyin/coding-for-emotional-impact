@@ -72,16 +72,21 @@ Coding For Emotional Impact
 
 ============================
 ## Class Description
-Coming out of nowhere. Monotonous drone. Running out of steam. Pregnant pause. Unbearable build up in tension. Gratifying resolution. We use these phrases all the time to describe music and film, animation and dialogue. We strive to provoke these reactions when we compose a piece of music or author a story.
+We live in an era of unprecedented technological innovation with ingenious new advances for achieving clean energy, eradicating disease and providing greater wellness, more equitably and effectively delivering education, and improving the quality of human existence and expression. At the same time, we are experiencing clear deficits within centralized institutions of government and civil society: deficits of agility, innovation and capacity.
 
-What are we actually talking about? Narrative arc and its more abstract cousin, composition.
+These traditional institutions are failing to tap into the diversity of expertise and experience of individuals and communities, rendering us less able to quickly discover, recognize, implement and scale innovative approaches to pressing problems and making it impossible to translate technological innovation into social progress.
 
-Anything that plays out over time inevitably also plays out over a narrative and emotional arc, part of which is intrinsic to the events that are happening, part of which is constructed in the mind of the viewer.
+Our current system of centralized government institutions is designed for an earlier age of limited, one-way communication. Consider:
 
-But what does it mean to compose for animation, music and stories in terms of rules and patterns expressed in code? In this class, we will look at how to use simple computational strategies for composing patterns of events that are capable of producing emotional impact. 
+Our 18th century model of voting for representatives doesn’t maximize the flow of personal or community preferences from people to government.
 
-The class is agnostic to medium. "Narrative events" can be shifts in color in an animated painting, shifts in meter in a piece of generative music or shifts in the emotional state of the protagonist of your interactive story. You define the events. The class provides you with techniques for shaping those events in dynamic ways over time.
+Our19th century addition of professional bureaucracy doesn't maximize the flow of expertise, widely distributed in society.
+Put another way, we can’t make the best decisions in government on how to improve people’s lives if we limit public participation and feedback to voting every few years. And we can’t adequately take advantage of people’s talents, abilities and desire to play a role in governing if we relegate their service to civic engagement disconnected from the real power, money and decision-making.
 
-The course is also as much an exercise in cultivating personal sensitivity to the emotional power of patterns as it is a class in how to write code to generate such patterns. We will devote as much time to collecting and dissecting compelling examples of composition as we do to writing code. 
+Governments appropriate plenty for innovation in society. They fund research grants; invest in broadband infrastructure; support science education. But they spend next to nothing on reinventing government institutions by informing and empowering citizen to participate. There is no other industry, and not one as big as the public sector, that doesn’t regularly improve on its core business model.
 
-Assignments will alternate between programming exercises done in Processing and more creative assignments applying newly learned techniques to the medium of your choice, in the programming language of your choice. Since this is as much a course about perception as it is about code, user testing your creations will be as important as the creations themselves!
+New technology has the potential to transform governance and produce a more open and participatory political culture with effective institutions that engender trust.
+
+New technology makes collaborative problem solving possible. In this course, we explore how we might use technology -- from big data to social media -- to redesign our systems of governance to devolve power from centralized, hierarchical institutions and evolve more robust collaboration among individuals, groups and institutions including government and the media.
+
+Through blogging assignments, discussions and a final design project, participants will apply what we learn about innovation to the issues about which they are the most passionate.
