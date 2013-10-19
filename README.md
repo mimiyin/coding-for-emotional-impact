@@ -78,9 +78,7 @@ What are we actually talking about? Narrative arc and its more abstract cousin, 
 
 Anything that plays out over time inevitably also plays out over a narrative and emotional arc, part of which is intrinsic to the events that are happening, part of which is constructed in the mind of the viewer.
 
-But what does it mean to compose for animation, music and stories in terms of rules and patterns expressed in code? Why attempt to compose at all in code? There's no reason to other than because your work is interactive or you want it to be able to run forever. In both cases, you can't predefine how your composition plays out over time yet at the same time you don't want to give up complete control over how it unfolds.
-
-In this class, we will look at how to use simple computational strategies for composing patterns of events that are capable of producing emotional impact. 
+But what does it mean to compose for animation, music and stories in terms of rules and patterns expressed in code? In this class, we will look at how to use simple computational strategies for composing patterns of events that are capable of producing emotional impact. 
 
 The class is agnostic to medium. "Narrative events" can be shifts in color in an animated painting, shifts in meter in a piece of generative music or shifts in the emotional state of the protagonist of your interactive story. You define the events. The class provides you with techniques for shaping those events in dynamic ways over time.
 
