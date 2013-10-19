@@ -9,7 +9,7 @@ Coding For Emotional Impact
 
 ##### HW 1: Collect 100 examples of compelling pattern-driven compositions. Pick 10 to talk about in class the following week.
 
-### Weeks 2, 3: Generate Feeling
+### Weeks 2, 3: And Now With Feeling...
 - Drumming Exercise
 - Math Review: What is a wave function anyway?
 - Repeating patterns using arithmetic and simple periodic wave functions.
@@ -19,7 +19,7 @@ Coding For Emotional Impact
 ##### HW 2: Assign an arbitrary emotion to each student. Create 3 computational interpretations of your emotion by simply animating a rectangle on the screen with a wave function.
 ##### HW 3: Apply it to your medium of choice. 
 
-### Weeks 4, 5: Playing with Timing and Pacing
+### Weeks 4, 5: Playing with Timing and Pacing and Pacing and Timing
 - Embodying pacing: Walking down Broadway.
 - Extending attention span.
 - Building tension.
@@ -31,7 +31,7 @@ Coding For Emotional Impact
 ##### HW 4: Take your homework from Week 3 and use the Story Grapher to generate 10 more interpretations, this time try to interpret at least 3 distinct emotions. 
 ##### HW 5: Apply to your medium of choice.
 
-### Week 6: Disruption
+### Week 6: DisrupInterruption
 - How do you establish a pattern?
 - Once you've established it, how do you break it?
 - What is monotony? What is surprise?
@@ -40,7 +40,7 @@ Coding For Emotional Impact
 
 ##### HW 6: Apply to your medium of choice of choice.
 
-### Week 7: Unpredictability
+### Week 7: Unpredictaprobability
 - Layering techniques for generating "unpredictable" patterns.
 - Using probability to generate "unpredictable" patterns.
 
