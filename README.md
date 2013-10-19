@@ -1,7 +1,7 @@
 Coding For Emotional Impact
 ===========================
 ## Syllabus (Work in Progress)
-###Week 1: Seeing, Hearing, Feeling
+###Week 1: Seeing, Hearing, Sensing
 - What is narrative arc? What is composition? What are its basic building blocks?
 - What does it mean to compose narrative arc computationally?
 - What is a pattern? When does a pattern cease to be a pattern?
