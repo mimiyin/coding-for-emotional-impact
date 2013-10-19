@@ -1,7 +1,7 @@
 Coding For Emotional Impact
 ===========================
 ## Syllabus (Work in Progress)
-###Week 1: Seeing, Hearing, Sensing
+###Week 1: Seeing, Hearing, Sensing, Feeling
 - What is narrative arc? What is composition? What are its basic building blocks?
 - What does it mean to compose narrative arc computationally?
 - What is a pattern? When does a pattern cease to be a pattern?
@@ -9,7 +9,7 @@ Coding For Emotional Impact
 
 ##### HW 1: Collect 100 examples of compelling pattern-driven compositions. Pick 10 to talk about in class the following week.
 
-### Weeks 2, 3: And Now With Feeling...
+### Weeks 2, 3: And Again, This Time With Feeling...
 - Drumming Exercise
 - Math Review: What is a wave function anyway?
 - Repeating patterns using arithmetic and simple periodic wave functions.
