@@ -82,8 +82,6 @@ But what does it mean to compose for animation, music and stories in terms of r
 
 In this class, we will look at how to use simple computational strategies for composing patterns of events that are capable of producing emotional impact. 
 
-To compose computationally is to abstract emotion into numbers and ratios so that we can figure out for instance that a pattern needs to be established for a certain number of seconds before it can be interrupted, otherwise the interruption goes unnoticed. And that interruption needs to be 3 times as significant as what came before it in order to register as a shock because anything less feels more like a hiccup.
-
 The class is agnostic to medium. "Narrative events" can be shifts in color in an animated painting, shifts in meter in a piece of generative music or shifts in the emotional state of the protagonist of your interactive story. You define the events. The class provides you with techniques for shaping those events in dynamic ways over time.
 
 The course is also as much an exercise in cultivating personal sensitivity to the emotional power of patterns as it is a class in how to write code to generate such patterns. We will devote as much time to collecting and dissecting compelling examples of narrative composition as we do to writing code because it is only through spending a lot of time with analog examples that we can hope to extract the rules we need to approximate them in digital form.
