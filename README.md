@@ -7,7 +7,7 @@ Coding For Emotional Impact
 - What is a pattern? When does a pattern cease to be a pattern?
 - Can patterns be emotional?
 
-#### HW 1: Collect 100 examples of compelling pattern-driven compositions. Pick 10 to talk about in class the following week.
+##### HW 1: Collect 100 examples of compelling pattern-driven compositions. Pick 10 to talk about in class the following week.
 
 ### Weeks 2, 3: Generate Feeling
 - Math Review: What is a wave function anyway?
@@ -15,8 +15,8 @@ Coding For Emotional Impact
 - Modulating wave functions with frequency and amplitude.
 - Recursive wave functions.
 
-#### HW 2: Assign an arbitrary emotion to each student. Create 3 computational interpretations of your emotion by simply animating a rectangle on the screen with a wave function.
-#### HW 3: Apply it to your medium of choice. 
+##### HW 2: Assign an arbitrary emotion to each student. Create 3 computational interpretations of your emotion by simply animating a rectangle on the screen with a wave function.
+##### HW 3: Apply it to your medium of choice. 
 
 ### Weeks 4, 5: Playing with Timing and Pacing
 - Extending attention span.
@@ -26,8 +26,8 @@ Coding For Emotional Impact
 - Linear versus geometric growth.
 - Introduce the Story Grapher.
 
-#### HW 4: Take your homework from Week 3 and use the Story Grapher to generate 10 more interpretations, this time try to interpret at least 3 distinct emotions. 
-#### HW 5: Apply to your medium of choice.
+##### HW 4: Take your homework from Week 3 and use the Story Grapher to generate 10 more interpretations, this time try to interpret at least 3 distinct emotions. 
+##### HW 5: Apply to your medium of choice.
 
 ### Week 6: Disruption
 - How do you establish a pattern?
@@ -36,13 +36,13 @@ Coding For Emotional Impact
 - Defining ratios and proportions with linear and non-linear scaling.
 - Judicious use of random() and noise().
 
-#### HW 6: Apply to your medium of choice of choice.
+##### HW 6: Apply to your medium of choice of choice.
 
 ### Week 7: Unpredictability
 - Layering techniques for generating "unpredictable" patterns.
 - Using probability to generate "unpredictable" patterns.
 
-#### HW 7: Apply to your medium of choice.
+##### HW 7: Apply to your medium of choice.
 
 ### Week 8: Momentous Occasions and Catastrophic Events
 - Establishing landmark events.
@@ -50,13 +50,13 @@ Coding For Emotional Impact
 - Orchestrating a disaster.
 - Defining conditions to set thresholds.
 
-#### HW 8: Apply to your medium of choice.
+##### HW 8: Apply to your medium of choice.
 
 ### Week 9,10: Putting it all together
 - A polyphonic model for composing narrative arc.
 
-#### HW 9: Design 3 models for your final project proposal.
-#### HW 10: Pick 1 of your designs and flesh it out.
+##### HW 9: Design 3 models for your final project proposal.
+##### HW 10: Pick 1 of your designs and flesh it out.
 
 ### Week 11: Small group presentations / discussions of final project.
 
