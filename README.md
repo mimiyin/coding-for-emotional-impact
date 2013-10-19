@@ -10,6 +10,7 @@ Coding For Emotional Impact
 ##### HW 1: Collect 100 examples of compelling pattern-driven compositions. Pick 10 to talk about in class the following week.
 
 ### Weeks 2, 3: Generate Feeling
+- Drumming Exercise
 - Math Review: What is a wave function anyway?
 - Repeating patterns using arithmetic and simple periodic wave functions.
 - Modulating wave functions with frequency and amplitude.
