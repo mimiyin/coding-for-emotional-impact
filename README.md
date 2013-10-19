@@ -19,6 +19,7 @@ Coding For Emotional Impact
 ##### HW 3: Apply it to your medium of choice. 
 
 ### Weeks 4, 5: Playing with Timing and Pacing
+- Embodying pacing: Walking down Broadway.
 - Extending attention span.
 - Building tension.
 - Playing with the rate of change.
