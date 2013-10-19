@@ -16,7 +16,7 @@ Coding For Emotional Impact
 - Modulating wave functions with frequency and amplitude.
 - Recursive wave functions.
 
-##### HW 2: Assign an arbitrary emotion to each student. Create 3 computational interpretations of your emotion by simply animating a rectangle on the screen with a wave function.
+##### HW 2: Assign an arbitrary emotion to each student. Create 3 computational interpretations of your emotion by simply animating a rectangle on the screen with a wave function. Ask at least 3 people how it makes them feel. No leading questions!
 ##### HW 3: Apply it to your medium of choice. 
 
 ### Weeks 4, 5: Playing with Timing and Pacing and Pacing and Timing
