@@ -38,7 +38,7 @@ Coding For Emotional Impact
 - Defining ratios and proportions with linear and non-linear scaling.
 - Judicious use of random() and noise().
 
-##### HW 6: Apply to your medium of choice of choice.
+##### HW 6: Apply to your medium of choice.
 
 ### Week 7: Unpredictaprobability
 - Layering techniques for generating "unpredictable" patterns.
