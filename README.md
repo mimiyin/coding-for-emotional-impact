@@ -53,7 +53,7 @@ Coding For Emotional Impact
 ##### HW 8: Apply to your medium of choice.
 
 ### Week 9,10: Putting it all together
-- A polyphonic model for composing narrative arc.
+- A polyphonic model for composing narrative and emotional arc.
 
 ##### HW 9: Design 3 models for your final project proposal.
 ##### HW 10: Pick 1 of your designs and flesh it out.
