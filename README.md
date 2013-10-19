@@ -66,9 +66,9 @@ Coding For Emotional Impact
 
 ============================
 ## Grading
-40% Attendance and Class Participation
-50% Quality of Assignments
-10% Final Project
+- 40% Attendance and Class Participation
+- 50% Quality of Assignments
+- 10% Final Project
 
 ============================
 ## Class Description
