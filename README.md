@@ -82,6 +82,6 @@ But what does it mean to compose for animation, music and stories in terms of r
 
 The class is agnostic to medium. "Narrative events" can be shifts in color in an animated painting, shifts in meter in a piece of generative music or shifts in the emotional state of the protagonist of your interactive story. You define the events. The class provides you with techniques for shaping those events in dynamic ways over time.
 
-The course is also as much an exercise in cultivating personal sensitivity to the emotional power of patterns as it is a class in how to write code to generate such patterns. We will devote as much time to collecting and dissecting compelling examples of narrative composition as we do to writing code because it is only through spending a lot of time with analog examples that we can hope to extract the rules we need to approximate them in digital form.
+The course is also as much an exercise in cultivating personal sensitivity to the emotional power of patterns as it is a class in how to write code to generate such patterns. We will devote as much time to collecting and dissecting compelling examples of composition as we do to writing code. 
 
 Assignments will alternate between programming exercises done in Processing and more creative assignments applying newly learned techniques to the medium of your choice, in the programming language of your choice. Since this is as much a course about perception as it is about code, user testing your creations will be as important as the creations themselves!
