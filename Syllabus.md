@@ -1,7 +1,7 @@
 Coding For Emotional Impact
 ===========================
 ## Syllabus (Work in Progress)
-We will be looking at examples from a broad array of media and disciplines from the column structure of Greek temples to music by Steve Reich and Iannis Xenakis to poetry by Seamus Heaney to paintings by Mark Rothko to story-driven video games like Red Dead Redemption. More details to come!
+We will be looking at examples from a broad array of media and disciplines from the column structure of Greek temples to music by Steve Reich and Iannis Xenakis to poetry by Bob Dylan and Seamus Heaney to paintings by Mark Rothko to story-driven video games like Red Dead Redemption. More details to come!
 
 ###Week 1: Seeing, Hearing, Sensing, Feeling
 - What is narrative arc? What is composition? What are its basic building blocks?
