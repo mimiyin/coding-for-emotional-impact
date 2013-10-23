@@ -1,4 +1,6 @@
 Coding For Emotional Impact
+
+We will be looking at examples from a broad array of media and disciplines from the column structure of Greek temples to music by Steve Reich to paintings by Mark Rothko to story-driven video games like Red Dead Redemption. More details to come!
 ===========================
 ## Syllabus (Work in Progress)
 ###Week 1: Seeing, Hearing, Sensing, Feeling
