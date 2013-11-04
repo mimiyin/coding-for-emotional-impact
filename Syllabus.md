@@ -1,6 +1,6 @@
 Coding For Emotional Impact
 ===========================
-This class is for anyone trying to use code to tell a story, compose music, or embue a physical object with emotion. We will be looking at examples from abroad array of media and disciplines from the column structure of Greek temples to music (classical and contemporary) to poetry by Bob Dylan and Seamus Heaney to paintings by Mark Rothko to story-driven video games like Red Dead Redemption and yes Youtube videos. More details to come!
+This class is for anyone trying to use code to tell a story, compose music, or embue a physical object with emotion. We will be looking at examples from abroad array of media and disciplines from the column structure of Greek temples to music (classical and contemporary) to poetry by Bob Dylan and Seamus Heaney to paintings by Mark Rothko to story-driven video games like Red Dead Redemption and yes Youtube cat videos. More details to come! [Full description.](#full)
 ## Syllabus (Work in Progress)
 ###Week 1: Seeing, Hearing, Sensing, Feeling
 - What is narrative arc? What is composition? What are its basic building blocks?
@@ -72,6 +72,7 @@ This class is for anyone trying to use code to tell a story, compose music, or e
 - 10% Final Project
 
 ============================
+<a name=full></a>
 ## Class Description
 Coming out of nowhere. Monotonous drone. Running out of steam. Pregnant pause. Unbearable build up in tension. Gratifying resolution. We use these phrases all the time to describe music and film, animation and dialogue. We strive to provoke these reactions when we compose a piece of music or author a story.
 
