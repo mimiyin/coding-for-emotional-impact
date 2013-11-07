@@ -2,7 +2,7 @@ Coding For Emotional Impact
 ===========================
 This class is for anyone trying to use code to tell a story, compose music, or embue a physical object with the power of emotional expression. We will be looking at examples from a broad array of media and disciplines from the column structure of Greek temples to music (classical and contemporary) to poetry by Bob Dylan and Seamus Heaney to paintings by Mark Rothko to story-driven video games like Red Dead Redemption and yes Youtube cat videos. More details to come! [Full description.](#full)
 ## Syllabus (Work in Progress)
-###Week 1: Seeing, Hearing, Sensing, Feeling (Computationally through Patterns)
+###Week 1: Seeing, Hearing, Sensing, Feeling Through the Lens of Patterns
 - What is narrative arc? What is composition? What are its basic building blocks?
 - What does it mean to compose narrative arc computationally?
 - What is a pattern? When does a pattern cease to be a pattern?
