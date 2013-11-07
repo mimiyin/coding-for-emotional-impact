@@ -12,12 +12,13 @@ This class is for anyone trying to use code to tell a story, compose music, or e
 
 ### Weeks 2, 3: And Again, This Time With Feeling...
 - Drumming Exercise
-- Math Review: What is a wave function anyway?
+- Patterns that swell with anticipation and die off
 - Repeating patterns using arithmetic and simple periodic wave functions.
+- Math Review: What is a wave function anyway?
 - Modulating wave functions with frequency and amplitude.
 - Recursive wave functions.
 
-##### HW 2: Assign an arbitrary emotion to each student. Create 3 computational interpretations of your emotion by simply animating a rectangle on the screen with a wave function. Ask at least 3 people how it makes them feel. No leading questions!
+##### HW 2: Assign an arbitrary emotion to each person. Create 3 computational interpretations of your emotion by simply animating a rectangle on the screen with a wave function. Ask at least 3 people how it makes them feel. No leading questions!
 ##### HW 3: Apply it to your medium of choice. 
 
 ### Weeks 4, 5: Playing with Timing and Pacing and Pacing and Timing
@@ -42,8 +43,7 @@ This class is for anyone trying to use code to tell a story, compose music, or e
 ##### HW 6: Apply to your medium of choice.
 
 ### Week 7: Unpredictaprobability
-- Layering techniques for generating "unpredictable" patterns.
-- Using probability to generate "unpredictable" patterns.
+- Using probability to generate "unpredictable" patterns that disorient destabilize.
 
 ##### HW 7: Apply to your medium of choice.
 
