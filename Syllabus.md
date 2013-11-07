@@ -10,7 +10,7 @@ This class is for anyone trying to use code to tell a story, compose music, or e
 
 ##### HW 1: Collect 100 examples of compelling pattern-driven compositions. Pick 10 to talk about in class the following week.
 
-### Weeks 2, 3: Ebb and Flow
+### Weeks 2, 3: The Ebb and Flow of Micro Emotional Arcs
 - Drumming Exercise
 - Patterns that swell with anticipation, crest and die off
 - Repeating patterns using arithmetic and simple periodic wave functions.
