@@ -43,7 +43,7 @@ This class is for anyone trying to use code to tell a story, compose music, or e
 ##### HW 6: Apply to your medium of choice.
 
 ### Week 7: Unpredictaprobability
-- Using probability to generate "unpredictable" patterns that disorient destabilize.
+- Using probability to generate "unpredictable" patterns that disorient and destabilize.
 
 ##### HW 7: Apply to your medium of choice.
 
