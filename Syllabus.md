@@ -1,6 +1,9 @@
 Coding For Emotional Impact
 ===========================
-This class is for anyone trying to use code to tell a story, compose music, or embue a physical object with the power of emotional expression. We will be looking at examples from a broad array of media and disciplines from the column structure of Greek temples to music (classical and contemporary) to poetry by Bob Dylan and Seamus Heaney to paintings by Mark Rothko to story-driven video games like Red Dead Redemption and yes Youtube cat videos. More details to come! [Full description.](#full)
+This class is for anyone trying to use code to tell a story, compose music, or embue a physical object with the power of emotional expression. We will be looking at examples from a broad array of media and disciplines from the column structure of Greek temples to music (classical and contemporary) to poetry by Bob Dylan and Seamus Heaney to paintings by Mark Rothko to story-driven video games like Red Dead Redemption and yes Youtube cat videos. 
+
+You will be working from code examples and simple interfaces I will create to help you play with different computational techniques. Our aim isn't to invent fancy new algorithms. Instead we're using computation and programming as a tool to help us decode the mechanisms that driving compelling emotional arcs.
+More details to come! [Full description.](#full)
 
 Have questions? Email me at mimi.yin@nyu.edu
 
