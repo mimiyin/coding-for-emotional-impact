@@ -14,7 +14,7 @@ Have questions? Email me at mimi.yin@nyu.edu
 - What is a pattern? When does a pattern cease to be a pattern?
 - Can patterns be emotional?
 
-##### HW 1: Collect 100 examples of compelling pattern-driven compositions. Pick 10 to talk about in class the following week.
+##### HW 1: TBD
 
 ### Weeks 2, 3: The Ebb and Flow of Micro Emotional Arcs
 - Drumming Exercise
@@ -24,10 +24,24 @@ Have questions? Email me at mimi.yin@nyu.edu
 - Modulating wave functions with frequency and amplitude.
 - Recursive wave functions.
 
-##### HW 2: Assign an arbitrary emotion to each person. Create 3 computational interpretations of your emotion by simply animating a rectangle on the screen with a wave function. Ask at least 3 people how it makes them feel. No leading questions!
-##### HW 3: Apply it to your medium of choice. 
+##### HW 2: TBD
+##### HW 3: TBD 
 
-### Weeks 4, 5: Playing with Timing and Pacing and Pacing and Timing
+### Week 4: DisrupInterruption
+- How do you establish a pattern?
+- Once you've established it, how do you break it?
+- What is monotony? What is surprise?
+- Defining ratios and proportions with linear and non-linear scaling.
+- Judicious use of random() and noise().
+
+##### HW 4: TBD
+
+### Week 5: Unpredictaprobability
+- Using probability to generate "unpredictable" patterns that disorient and destabilize.
+
+##### HW 5: TBD
+
+### Weeks 6, 7: Playing with Timing and Pacing and Pacing and Timing
 - Embodying pacing: Walking down Broadway.
 - Extending attention span.
 - Building tension.
@@ -36,22 +50,8 @@ Have questions? Email me at mimi.yin@nyu.edu
 - Linear versus geometric growth.
 - Introduce the Story Grapher.
 
-##### HW 4: Take your homework from Week 3 and use the Story Grapher to generate 10 more interpretations, this time try to interpret at least 3 distinct emotions. 
-##### HW 5: Apply to your medium of choice.
-
-### Week 6: DisrupInterruption
-- How do you establish a pattern?
-- Once you've established it, how do you break it?
-- What is monotony? What is surprise?
-- Defining ratios and proportions with linear and non-linear scaling.
-- Judicious use of random() and noise().
-
-##### HW 6: Apply to your medium of choice.
-
-### Week 7: Unpredictaprobability
-- Using probability to generate "unpredictable" patterns that disorient and destabilize.
-
-##### HW 7: Apply to your medium of choice.
+##### HW 6: TBD
+##### HW 7: TBD
 
 ### Week 8: Momentous Occasions and Catastrophic Events
 - Establishing landmark events.
@@ -59,13 +59,10 @@ Have questions? Email me at mimi.yin@nyu.edu
 - Orchestrating a disaster.
 - Defining conditions to set thresholds.
 
-##### HW 8: Apply to your medium of choice.
+##### HW 8: TBD
 
 ### Week 9,10: Pulling It All Together
 - A polyphonic model for composing narrative and emotional arc.
-
-##### HW 9: Design 3 models for your final project proposal.
-##### HW 10: Pick 1 of your designs and flesh it out.
 
 ### Week 11: Small group presentations / discussions of final project.
 
