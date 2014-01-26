@@ -48,21 +48,25 @@ Have questions? Email me at mimi.yin@nyu.edu
 - Playing with the rate of change.
 - When does change become perceptible?
 - Linear versus geometric growth.
-- Introduce the Story Grapher.
+- Storygrapher.
+- Non-linear scoring. Pong and Pinatas.
 
 ##### HW 6: TBD
 ##### HW 7: TBD
 
-### Week 8: Momentous Occasions and Catastrophic Events
+
+##### HW 8: TBD
+
+### Week 8,9: Pulling It All Together
+- A polyphonic model for composing narrative and emotional arc.
+- Polygrapher
+
+### Week 10: Momentous Occasions and Catastrophic Events
 - Establishing landmark events.
 - Building up to a grand finale.
 - Orchestrating a disaster.
 - Defining conditions to set thresholds.
-
-##### HW 8: TBD
-
-### Week 9,10: Pulling It All Together
-- A polyphonic model for composing narrative and emotional arc.
+- Orchestrating moral dilemmas.
 
 ### Week 11: Small group presentations / discussions of final project.
 
