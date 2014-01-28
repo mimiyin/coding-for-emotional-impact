@@ -13,14 +13,29 @@ Have questions? Email me at mimi.yin@nyu.edu
 - What does it mean to compose narrative arc computationally?
 - What is a pattern? When does a pattern cease to be a pattern?
 - Can patterns be emotional?
+- [Notes](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Week-1)
+
+####Homework
+- Collect 5-6 patterns from the "real world" to contribute to your group. They can be images, sound, video clips, objects, etc. Document your patterns in your blog post and write 1-2 sentences on the emotional impact of each pattern.
+- Create your own human "chamber music" piece.
+- Duration: 1-5 minutes.
+- The piece does not have to be sound-based, but it must be a live performance.
+- You can make use of mechanical devices: metronomes, lightswitches, fans, etc...
+- You may want to consider having a conductor, but that is not required.
+- **Rehearse** your piece in front of at least 2 other people.
+- Document the rehearsal on video.
+- Submit a link to your blog post (you only need 1 per group) to the [Homework Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
+
+
 
 ##### HW 1: TBD
 
 ### Weeks 2, 3: The Ebb and Flow of Micro Emotional Arcs
-- Drumming Exercise
-- Patterns that swell with anticipation, crest and die off
+- "Digital" patterns using booleans and modulo versus "Analog" patterns using trig functions
+- The emotional implications of certain ratios and proportions.
+- Patterns that swell with anticipation, crest and die off.
 - Repeating patterns using arithmetic and simple periodic wave functions.
-- Math Review: What is a wave function anyway?
+- Math Review: PI, radians, sine, cosine and tan.
 - Modulating wave functions with frequency and amplitude.
 - Recursive wave functions.
 
