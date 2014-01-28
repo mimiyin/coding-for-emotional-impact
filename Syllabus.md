@@ -5,7 +5,7 @@ This class is for anyone trying to use code to tell a story, compose music, or e
 You will be working from code examples and simple interfaces I will create to help you play with different computational techniques. Our aim isn't to invent fancy new algorithms. Instead we're using computation and programming as a tool to help us decode the mechanisms that drive compelling emotional arcs.
 More details to come! [Full description.](#full)
 
-Have questions? Email me at mimi.yin@nyu.edu
+Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https://itp.nyu.edu/inwiki/Signup/Mimi)
 
 ## Syllabus (Work in Progress)
 ###Week 1: Seeing, Hearing, Sensing, Feeling Through the Lens of Patterns
