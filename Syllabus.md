@@ -15,10 +15,9 @@ Have questions? Email me at mimi.yin@nyu.edu
 - Can patterns be emotional?
 - [Notes](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Week-1)
 
-####Homework
+####Homework: Create your own human "chamber music" piece.
+- Duration: **1-5 minutes**
 - Collect 5-6 patterns from the "real world" to contribute to your group. They can be images, sound, video clips, objects, etc. Document your patterns in your blog post and write 1-2 sentences on the emotional impact of each pattern.
-- Create your own human "chamber music" piece.
-- Duration: 1-5 minutes.
 - The piece does not have to be sound-based, but it must be a live performance.
 - You can make use of mechanical devices: metronomes, lightswitches, fans, etc...
 - You may want to consider having a conductor, but that is not required.
