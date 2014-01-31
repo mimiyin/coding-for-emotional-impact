@@ -6,6 +6,7 @@ You will be working from code examples and simple interfaces I will create to he
 More details to come! [Full description.](#full)
 
 Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https://itp.nyu.edu/inwiki/Signup/Mimi)
+Join our [class mailing list](https://groups.google.com/a/itp.nyu.edu/forum/#!forum/cei-spring2014)
 
 ## Syllabus (Work in Progress)
 ###Week 1: Seeing, Hearing, Sensing, Feeling Through the Lens of Patterns
