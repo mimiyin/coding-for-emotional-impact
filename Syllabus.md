@@ -28,7 +28,8 @@ Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https:
 
 ### Week 2
 - Defining relationships with ratios and proportions...applied to space, time and color.
-- Quick trig review
+- Review of PVectors: [Nature of Code Videos 1.1 - 1.4](http://video.natureofcode.com/)
+- Review Basic Trigonometry: [Khan Video](https://www.khanacademy.org/math/trigonometry/basic-trigonometry/basic_trig_ratios/v/basic-trigonometry) | [Nature of Code Video 3.2](http://video.natureofcode.com/3.2/)
 - Introduction to trigonometric waves
 - Modulating scale and speed of patterns
 - Using waves to affect shape, movement and rhythm
