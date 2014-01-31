@@ -25,15 +25,6 @@ Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https:
 - Document the rehearsal on video.
 - Submit a link to your blog post (you only need 1 per group) to the [Homework Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
 
-
-### Week 2
-- Defining relationships with ratios and proportions...applied to space, time and color.
-- Review of PVectors: [Nature of Code Videos 1.1 - 1.4](http://video.natureofcode.com/)
-- Review Basic Trigonometry: [Khan Video](https://www.khanacademy.org/math/trigonometry/basic-trigonometry/basic_trig_ratios/v/basic-trigonometry) | [Nature of Code Video 3.2](http://video.natureofcode.com/3.2/)
-- Introduction to trigonometric waves
-- Modulating scale and speed of patterns
-- Using waves to affect shape, movement and rhythm
- 
 ### Weeks 2, 3: The Ebb and Flow of Micro Emotional Arcs
 - "Digital" patterns using booleans and modulo versus "Analog" patterns using trig functions
 - The emotional implications of certain ratios and proportions.
@@ -42,6 +33,14 @@ Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https:
 - Math Review: PI, radians, sine, cosine and tan.
 - Modulating wave functions with frequency and amplitude.
 - Recursive wave functions.
+
+### Week 2: Ratios, Patterns and Introduction to Trigonometric Wave Functions
+- Defining relationships with ratios and proportions...applied to space, time and color.
+- Review of PVectors: [Nature of Code Videos 1.1 - 1.4](http://video.natureofcode.com/)
+- Review Basic Trigonometry: [Khan Video](https://www.khanacademy.org/math/trigonometry/basic-trigonometry/basic_trig_ratios/v/basic-trigonometry) | [Nature of Code Video 3.2](http://video.natureofcode.com/3.2/)
+- Introduction to trigonometric waves
+- Modulating scale and speed of patterns
+- Using waves to affect shape, movement and rhythm
 
 ##### HW 2: TBD
 ##### HW 3: TBD 
