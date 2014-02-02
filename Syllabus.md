@@ -42,6 +42,7 @@ Join our [class mailing list](https://groups.google.com/a/itp.nyu.edu/forum/#!fo
 - Introduction to trigonometric waves
 - Modulating scale and speed of patterns
 - Using waves to affect shape, movement and rhythm
+- Install [MIDI BUS library](http://www.smallbutdigital.com/themidibus.php)
 
 ##### HW 2: TBD
 ##### HW 3: TBD 
