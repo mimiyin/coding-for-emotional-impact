@@ -17,7 +17,7 @@ Join our [class mailing list](https://groups.google.com/a/itp.nyu.edu/forum/#!fo
 - [Notes](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Week-1)
 
 ####Homework: Create your own human "chamber music" piece.
-- Duration: **1-5 minutes**
+- Duration: **1-7 minutes**
 - Collect 5-6 patterns from the "real world" to contribute to your group. They can be images, sound, video clips, objects, etc. Document your patterns in your blog post and write 1-2 sentences on the emotional impact of each pattern.
 - The piece does not have to be sound-based, but it must be a live performance.
 - You can make use of mechanical devices: metronomes, lightswitches, fans, etc...
