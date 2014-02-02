@@ -70,7 +70,7 @@ void draw() {
   // Affect speed with the sine wave
   // Try both versions, what's the difference?
   speed.x = sine(theta, freq, amp, 0); 
-  //xSpeed = sine(theta, freq, amp/10, amp/10); 
+  //speed.x = sine(theta, freq, amp, amp); 
 
   if (mover.x > width) {
     mover.x = 0;
