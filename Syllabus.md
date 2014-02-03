@@ -43,7 +43,7 @@ Join our [class mailing list](https://groups.google.com/a/itp.nyu.edu/forum/#!fo
 - Modulating scale and speed of patterns
 - Using waves to affect shape, movement and rhythm
 
-#### Resources
+#### Resources for Class
 - [PVector](http://www.processing.org/reference/PVector.html) | [Bouncing Ball](https://github.com/shiffman/LearningProcessing/blob/master/chp05_conditionals/example_5_10_bouncingzoog/example_5_10_bouncingzoog.pde)
 - [Color Wheel](http://en.wikipedia.org/wiki/Complementary_colors)
 - Install [MIDI BUS library](http://www.smallbutdigital.com/themidibus.php)
