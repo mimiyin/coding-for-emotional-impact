@@ -25,7 +25,7 @@ void setup() {
   for (int i = 0; i < ints.length; i++) {
     ints[i] = int(random(1, 20));
   }
-  
+  println("Use mouse position to control number of cols and rows."); 
   println("Use 1,q | 2,w | 3,e | 4,r to adjust intervals.");
 }
 
