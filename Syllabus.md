@@ -42,9 +42,14 @@ Join our [class mailing list](https://groups.google.com/a/itp.nyu.edu/forum/#!fo
 - Introduction to trigonometric waves
 - Modulating scale and speed of patterns
 - Using waves to affect shape, movement and rhythm
+
+#### Resources
+- [PVector](http://www.processing.org/reference/PVector.html) | [Bouncing Ball](https://github.com/shiffman/LearningProcessing/blob/master/chp05_conditionals/example_5_10_bouncingzoog/example_5_10_bouncingzoog.pde)
+- [Color Wheel](http://en.wikipedia.org/wiki/Complementary_colors)
 - Install [MIDI BUS library](http://www.smallbutdigital.com/themidibus.php)
 
-##### HW 2: TBD
+##### HW 2: Create 3 studies of your emotion using some of the techniques we went over in class 2. Show them to a friend. Post them to your blog and dropbox and write 1-2 sentences about what worked, what didn't work. Failures more interesting than successes!
+
 ##### HW 3: TBD 
 
 ### Week 4: DisrupInterruption
