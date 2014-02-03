@@ -41,19 +41,15 @@ void draw() {
     rect(x, y, w, h);
     interval = calc(mode);
     prevX = x;
-  }
-  // SOUND VERSION
-  if (sound) {
-    // Sound version
-    myBus.sendNoteOff(channel, pitch, velocity);
-    myBus.sendNoteOn(channel, pitch, velocity); // Send a Midi noteOn
 
-    x++;
+    // SOUND VERSION
+    if (sound) {
+      myBus.sendNoteOff(channel, pitch, velocity);
+      myBus.sendNoteOn(channel, pitch, velocity); // Send a Midi noteOn
+    }
   }
-  // VISUAL VERSION
-  else {
-    x+=interval;
-  }
+  if (sound) x++;
+  else x+=interval;
 
   // WRAP AROUND
   if (x > width) {
