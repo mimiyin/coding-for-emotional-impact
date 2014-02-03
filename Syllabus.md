@@ -16,7 +16,7 @@ Join our [class mailing list](https://groups.google.com/a/itp.nyu.edu/forum/#!fo
 - Can patterns be emotional?
 - [Notes](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Week-1)
 
-####Homework: Create your own human "chamber music" piece.
+####Homework 1: Create your own human "chamber music" piece.
 - Duration: **1-7 minutes**
 - Collect 5-6 patterns from the "real world" to contribute to your group. They can be images, sound, video clips, objects, etc. Document your patterns in your blog post and write 1-2 sentences on the emotional impact of each pattern.
 - The piece does not have to be sound-based, but it must be a live performance.
@@ -48,7 +48,11 @@ Join our [class mailing list](https://groups.google.com/a/itp.nyu.edu/forum/#!fo
 - [Color Wheel](http://en.wikipedia.org/wiki/Complementary_colors)
 - Install [MIDI BUS library](http://www.smallbutdigital.com/themidibus.php)
 
-##### HW 2: Create 3 studies of your emotion using some of the techniques we went over in class 2. Show them to a friend. Post them to your blog and dropbox and write 1-2 sentences about what worked, what didn't work. Failures more interesting than successes!
+##### HW 2: Create 3 studies of your emotion...
+- Use some of the techniques we went over in class 2. 
+- Show each to a friend. 
+- Post them to your blog and dropbox and write 1-2 sentences about what worked, what didn't work. 
+- Failures more interesting than successes!
 
 ##### HW 3: TBD 
 
