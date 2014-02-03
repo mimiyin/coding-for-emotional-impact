@@ -7,6 +7,8 @@ More details to come! [Full description.](#full)
 
 Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https://itp.nyu.edu/inwiki/Signup/Mimi)
 Join our [class mailing list](https://groups.google.com/a/itp.nyu.edu/forum/#!forum/cei-spring2014)
+####[Homework Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
+
 
 ## Syllabus (Work in Progress)
 ###Week 1: Seeing, Hearing, Sensing, Feeling Through the Lens of Patterns
@@ -53,6 +55,7 @@ Join our [class mailing list](https://groups.google.com/a/itp.nyu.edu/forum/#!fo
 - Show each to a friend. 
 - Post them to your blog and dropbox and write 1-2 sentences about what worked, what didn't work. 
 - Failures more interesting than successes!
+- Post link to blog and dropbox folder on the [Homework Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
 
 ##### HW 3: TBD 
 
