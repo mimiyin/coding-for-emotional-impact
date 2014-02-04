@@ -5,8 +5,7 @@ This class is for anyone trying to use code to tell a story, compose music, or e
 You will be working from code examples and simple interfaces I will create to help you play with different computational techniques. Our aim isn't to invent fancy new algorithms. Instead we're using computation and programming as a tool to help us decode the mechanisms that drive compelling emotional arcs.
 More details to come! [Full description.](#full)
 
-Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https://itp.nyu.edu/inwiki/Signup/Mimi)
-Join our [class mailing list](https://groups.google.com/a/itp.nyu.edu/forum/#!forum/cei-spring2014) | [Homework Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
+Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https://itp.nyu.edu/inwiki/Signup/Mimi) | Join our [class mailing list](https://groups.google.com/a/itp.nyu.edu/forum/#!forum/cei-spring2014) | [Homework Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
 
 
 ## Syllabus (Work in Progress)
