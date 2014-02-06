@@ -27,15 +27,16 @@ Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https:
 - Submit a link to your blog post (you only need 1 per group) to the [Homework Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
 
 
-### Week 2: Ratios of Space, Color and Time
+### Week 2: Ratios of Space, Color and Time | [Code](https://github.com/mimiyin/coding-for-emotional-impact/tree/master/Week%202%20Ratios)
 - Ratios of space.
-- [Ratios of color](http://en.wikipedia.org/wiki/Complementary_colors)
+- Rations of color.
 - Ratios of time.
 
-#### Resources for Class
+##### Resources for Class
 - Review of PVectors: [Nature of Code Videos 1.1 - 1.4](http://video.natureofcode.com/)
 - [PVector Class](http://www.processing.org/reference/PVector.html) | [Bouncing Ball](https://github.com/shiffman/LearningProcessing/blob/master/chp05_conditionals/example_5_10_bouncingzoog/example_5_10_bouncingzoog.pde)
-- Install [MIDI BUS library](http://www.smallbutdigital.com/themidibus.php)
+- [Color wheel](http://en.wikipedia.org/wiki/Complementary_colors)
+
 
 ##### HW 2: Create 3 studies of your emotion...
 - Use some of the techniques we went over in class 2. 
@@ -44,13 +45,17 @@ Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https:
 - Failures more interesting than successes!
 - Post link to blog and dropbox folder on the [Homework Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
 
-### Weeks 3: The Ebb and Flow of Micro Emotional Arcs
+### Weeks 3: The Ebb and Flow of Micro Arcs | [Code](https://github.com/mimiyin/coding-for-emotional-impact/tree/master/Week%203%20Waves%20and%20Recursion)
 - Patterns that swell with anticipation, crest and die off.
 - Review Basic Trigonometry: [Khan Video](https://www.khanacademy.org/math/trigonometry/basic-trigonometry/basic_trig_ratios/v/basic-trigonometry) | [Nature of Code Video 3.2](http://video.natureofcode.com/3.2/)
 - Introduction to trigonometric waves
 - Modulating scale and speed of patterns
 - Applying wave functions to create patterns of movement and time
 - Recursive drawing
+
+##### Resources for Class
+- Install [MIDI BUS library](http://www.smallbutdigital.com/themidibus.php)
+
 
 ##### HW 3: TBD 
 
