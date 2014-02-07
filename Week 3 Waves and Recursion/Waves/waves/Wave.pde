@@ -16,20 +16,13 @@ class Wave {
     update();
     return wave();
   }
-
-  float modFreq(float _t) {
-    t = _t;
-    return wave();
-  }
-
-  float modAmp(float _a) {
-    a = _a;
-    return run();
-  }
-
+  
+  // Change frequency and/or amplitude of wave
   float mod(float _t, float _a) {
-    t = _t;
-    a = _a;
+    // If _t or _a are less than zero,
+    // don't bother changing t or a
+    t = _t >=0 ? _t : t;
+    a = _a >=0 ? _a : a;
     return wave();
   }
 
@@ -78,6 +71,8 @@ class Square extends Wave {
   }
 
   float wave() {
+    // From 0-PI, y = +amp
+    // From PI-TWO_PI, y = -amp
     return o + (t%TWO_PI >= PI ? 1 : -1)*a;
   }
 }
@@ -87,10 +82,13 @@ class Sawtooth extends Wave {
 
   Sawtooth(float t, float f, float a, float o) {
     super(t, f, a, o);
+    // Calculate the slope (steepness) of the tooth
     m = (a+o) / TWO_PI;
   }
 
   float wave() {
+    // y = t*m is the formula for a line
+    // Why are we modulo-ing with TWO_PI?
     return (t%TWO_PI)*m;
   }
 }
