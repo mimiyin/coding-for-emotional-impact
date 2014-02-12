@@ -61,7 +61,7 @@ Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https:
 ##### HW 3: 2-Part Assignment | [Post to HW Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
 
 ##### Part 1 Due Mon Feb 17th
-- Take 1 of your 3 studies from last week and iterate on it by aiming for the physical characteristics assigned to you in class. 
+- Take 1 of your 3 studies from last week and iterate on it by aiming for the physical characteristics assigned to it by your partner in class. [See notes](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Week-3) for the complete list of characteristics with links to examples.
 - Post to your blog and write 1-2 sentences about what changed.
 
 ##### Part 2 Due Sun Feb 23rd
