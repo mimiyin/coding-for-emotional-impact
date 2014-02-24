@@ -9,11 +9,13 @@ Wave yWave = new Wave(0, xf, xa, 0);
 
 // Waves to modulate the base x-y waves
 // Modulating the x and y frequencies
-float fa = .05;
+// The bigger fa is, the more complex your pathway will be
+float fa = .01;
 Wave xfWave = new Wave(PI/2, xf, fa, fa);
 Wave yfWave = new Wave(0, xf, fa, fa);
 
 // Modulating the x and y amplitudes
+// The bigger aa is, the bigger your pathway will be
 float aa = 100;
 Wave xaWave = new Wave(PI/2, xf, aa, aa);
 Wave yaWave = new Wave(0, xf, aa, aa);
