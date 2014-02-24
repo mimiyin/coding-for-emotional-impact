@@ -69,9 +69,14 @@ Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https:
 ### Week 4: Micro-Arcs Part 2
 - Decoding wave functions
 - Non-organic wave functions: Square and Sawtooth
-- Recursive drawing
+
+##### HW 4: Due Sun Mar 2nd | [Post to HW Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
+- Create a composition that lasts 1 minute in code using at least 3 different micro-arcs
+- Should have a beginning - middle - end
+- Write 1-2 sentences describing the narrative arc you're going for
 
 ### Week 5: DisrupInterruption & Unpredictaprobability
+- Recursive drawing
 - How do you establish a pattern?
 - Once you've established it, how do you break it?
 - What is monotony? What is surprise?
