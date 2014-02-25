@@ -91,7 +91,7 @@ void keyPressed() {
     if (num >=0) {
       // 1-5 selects a wave type to modulate frequency
       // Automatically turns on modulating frequency
-      if (num < 6) {
+      if (num < 5) {
         isModFreq = true;
         freq = num;
       }
