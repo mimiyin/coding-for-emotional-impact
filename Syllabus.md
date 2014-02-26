@@ -69,6 +69,7 @@ Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https:
 ### Week 4: Micro-Arcs Part 2
 - Decoding wave functions
 - Non-organic wave functions: Square and Sawtooth
+- [Notes](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Week-4)
 
 ##### HW 4: Due Sun Mar 2nd | [Post to HW Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
 - Create a composition that lasts 1 minute in code using at least 3 different micro-arcs
