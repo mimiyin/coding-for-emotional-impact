@@ -4,6 +4,9 @@ float xa = 1;
 float yf = xf;
 float ya = xa;
 
+/* TRY SWAPPING OUT DIFFERENT WAVE TYPES FOR ALL
+THE VARIOUS WAVE VARIABLES BELOW AND SEE WHAT YOU GET*/
+
 Cosine xWave = new Cosine(0, xf, xa, 0);
 Sine yWave = new Sine(0, yf, ya, 0);
 
