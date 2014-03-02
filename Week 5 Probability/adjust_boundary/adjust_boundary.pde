@@ -13,7 +13,8 @@ void setup() {
 
 void draw() {
   line(0, yb1, width, yb2);
-
+  
+  // Calculate the current "slope" of the boundary
   float m = (yb2-yb1)/width;
   
   // Pick a random x position
