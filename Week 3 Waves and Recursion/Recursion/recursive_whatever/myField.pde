@@ -18,7 +18,7 @@ class Field {
         float ydisp = (y - _y)/20;
         
         // What is strokeWeight a function of?
-        strokeWeight(0.001*abs(xdisp*ydisp));
+        strokeWeight(0.01*abs(xdisp*ydisp));
         stroke(0);
         line(x, y, x+xdisp, y+ydisp);
         noStroke();

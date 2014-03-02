@@ -1,3 +1,5 @@
+import java.text.DecimalFormat; // Java utility to get rid of extra digits on decimal numbers
+
 // Control how many times to recurse
 // Control which wave to use at which level of recursion
 // Control whether to modulate freq or amp
@@ -30,11 +32,14 @@ void setup() {
   background(255);
   tx = width/2;
   ty = height/2;
+  
+  println("Press ENTER to toggle whether to erase background.");
+
 }
 
 void draw() {
   
-  if(erase) background(0);
+  if(erase) background(255);
 
   // Wrap
   if (x > tx || x < -tx || y > ty || y < -ty) {
@@ -82,7 +87,7 @@ void label() {
   fill(0);
   rect(0, 0, width, 50);
   fill(255);
-  text("\u2B0C to adjust levels of recursion: " + (limit+1), 10, 20);
+  text("Press \u2B0C to adjust levels of recursion: " + (limit+1) + "\t\t\tPress f/v to +/- FREQ: " + new DecimalFormat("##.###").format(frequency) + "\t\t\tPress a/z to +/- AMP: " + int(amplitude), 10, 20);
   text("Press NUM KEY and \u2B0D to change wave type at each recursion level: (1) " + types[indices[0]] + "\t(2) " + types[indices[1]] + "\t(3) " + types[indices[2]] + "\t(4) " + types[indices[3]] + "\t(5) " + types[indices[4]], 10, 40);
 }
 
@@ -122,12 +127,26 @@ void keyPressed() {
   }
 
   if (keyCode == UP || keyCode == DOWN) {
-    indices[level] = constrain(indices[level], 0, indices.length-1);
+    if(indices[level] > types.length-1) indices[level] = 0;
+    else if(indices[level] < 0) indices[level] = types.length-1;
   }    
   else {
     int k = parseInt(key)-49;
     if (k >=0 && k < indices.length) {
       level = k;
+    }
+    
+    if (key == 'f' || key == 'v') {
+      frequency += (key == 'f' ? 0.001 : -0.001);
+      frequency = constrain(frequency, 0.001, PI);
+      xCursor.setF(frequency);
+      yCursor.setF(frequency);
+    }
+    else if (key == 'a' || key == 'z') {
+      amplitude += (key == 'a' ? 1 : -1)*10;
+      amplitude = constrain(amplitude, 0, width);
+      xCursor.setA(amplitude);
+      yCursor.setA(amplitude);
     }
   }
 }

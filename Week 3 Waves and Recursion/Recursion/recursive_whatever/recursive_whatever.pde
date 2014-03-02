@@ -1,4 +1,4 @@
-import java.text.DecimalFormat;
+import java.text.DecimalFormat; // Java utility to get rid of extra digits on decimal numbers
 
 float x, y; // Location
 int tx, ty; // Translate to middle of window
@@ -21,8 +21,8 @@ String [] types = {
 float frequency = 0.001;
 float amplitude = 10;
 float offset = 0;
-Cursor xCursor = new Cursor(PI/2, frequency, amplitude, offset);
-Cursor yCursor = new Cursor(0, frequency, amplitude, offset);
+boolean show, erase; //Show draw location? Erase background? 
+int mode; // Show field (0) or bean (1)?
 
 int [] fieldWaves = { 
   4, 1, 2, 3, 4
@@ -32,8 +32,9 @@ Field field = new Field(0.1, 100, 0, fieldWaves, false, true);
 int [] beanWaves = { 4, 2, 2, 3, 4 };
 Bean bean = new Bean(0.001, 10, 0, beanWaves, false, true);
 
-boolean show, erase; //Show draw location? Erase background? 
-int mode; // Show field (0) or bean (1)?
+
+Cursor xCursor = new Cursor(PI/2, frequency, amplitude, offset);
+Cursor yCursor = new Cursor(0, frequency, amplitude, offset);
 
 void setup() {
   size(800, 600); 
@@ -42,7 +43,7 @@ void setup() {
   ty = height/2;
   margin = 500;
   
-  println("Press TAB to toggle whether to erase background. RETURN to draw location. SPACEBAR to switch modes.");
+  println("Press ENTER to toggle whether to erase background. SPACEBAR to draw location. TAB to switch modes.");
 }
 
 void draw() {
@@ -119,10 +120,11 @@ void keyPressed() {
     reset();
     break;
   case ENTER:
-    show = !show;
+    erase = !erase;
     break;
   case TAB:
-    erase = !erase;
+    mode++; 
+    if(mode > 1) mode = 0;
     break;
  
   }
@@ -132,8 +134,7 @@ void keyPressed() {
     else if(indices[level] < 0) indices[level] = types.length-1;
   }
   else if(key == 32) {
-    mode++; 
-    if(mode > 1) mode = 0;
+       show = !show;
   }
   else {
     int k = parseInt(key)-49;

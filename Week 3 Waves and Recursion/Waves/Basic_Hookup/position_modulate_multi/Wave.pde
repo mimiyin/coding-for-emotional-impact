@@ -21,8 +21,8 @@ class Wave {
   float mod(float _f, float _a) {
     // If _f or _a are less than zero,
     // don't bother changing f or a
-    f = _f >=0 ? _f : f;
-    a = _a >=0 ? _a : a;
+    f = _f;
+    a = _a;
     return run();
   }
 
