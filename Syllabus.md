@@ -77,15 +77,17 @@ Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https:
 - Write 1-2 sentences describing the narrative arc you're going for
 
 ### Week 5: DisrupInterruption & Unpredictaprobability
+- Making micro-arcs more dynamic
+- Modulating wave functions with 
+- New wave types: Square and Sawtooth
 - Recursive drawing
-- How do you establish a pattern?
-- Once you've established it, how do you break it?
-- What is monotony? What is surprise?
-- Defining ratios and proportions with linear and non-linear scaling.
-- Judicious use of random() and noise().
-- Using probability to generate "unpredictable" patterns that disorient and destabilize.
+- Creating "patterns" of random()
+- Wiggling around with noise
+- Hooking up noise with micro-arcs
+- [Notes](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Week-5)
 
-##### HW 5: TBD
+##### HW 5: Due Sun Mar 10th | [Post to HW Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
+- Make something using recursion or controlling random or noise. Write 1-2 sentences describing what you're going for. Come in comfortable clothing next Monday!
 
 ### Weeks 6, 7: Playing with Timing and Pacing and Pacing and Timing
 - Embodying pacing: Walking down Broadway.
