@@ -17,7 +17,7 @@ Cursor yCursor = new Cursor(0, frequency, amplitude, offset);
 
 // Keep track of wave types for leach level of recursion
 int [] indices = { 
-  0, 1, 2, 3, 4
+  0, 1, 3, 2, 4
 };
 
 
@@ -30,7 +30,7 @@ void setup() {
 
 void draw() {
   // erase
-  background(255);
+  background(0);
   
   // Wrap
   if (x > tx || x < -tx || y > ty || y < -ty) {
@@ -50,9 +50,16 @@ void draw() {
     prevY = y;
   }
   
+  float plimit = limit;
   // Change the limit slowly with some randomness
-  limit += random(0.01);
+  limit += random(-0.01, 0.01);
+  
   if(limit >= indices.length-1) limit = 0;
+  else if(limit < 0) limit = indices.length-1;
+
+  // If the limit has changed
+  if(int(limit) < int(plimit)) reset();
+  
 
   // Calculate speed
   float xspeed = xCursor.run(0);
