@@ -99,25 +99,23 @@ Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https:
 ##### HW 6: Due Sun Mar 23th | [Post to HW Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
 - [Online Metronome](http://a.bestmetronome.com/)
 
-Play with timing and pacing.
+##### Play with timing and pacing.
 
-1. Pacing  or Tempo
-- How quickly is the pattern repeating?
-
+1. Pacing  or Tempo: How quickly is the pattern repeating?
 2. Timing: Ways to think about timing...
-- When does the pattern change? 
-- When does order turn into chaos turn into order?
-- How long do you have to do one thing, for the next thing to be surprising?
-- How big is the change?
+ - When does the pattern change? 
+ - When does order turn into chaos turn into order?
+ - How long do you have to do one thing, for the next thing to be surprising?
+ - How big is the change?
 
-Approaches you can take if you’re stuck.
-1. Decode a video clip or piece of music you love.
-2. Code one of the patterns we decoded in class. (Notes coming soon.)
-3. Revisit something you’ve done and tighten the timing and pacing to bring it closer to the emotional arc you’re going for.
-
-Be prepared to talk about:
-1. What tempos you used (in beats-per-minute).
-2. What are the effects of the timing and pacing choices you made (e.g. building suspense, calming effect, fake-out, disorientation) 
+##### Approaches you can take if you’re stuck.
+ 1. Decode a video clip or piece of music you love.
+ 2. Code one of the patterns we decoded in class. (Notes coming soon.)
+ 3. Revisit something you’ve done and tighten the timing and pacing to bring it closer to the emotional arc you’re going for.
+ 
+##### Be prepared to talk about:
+ 1. What tempos you used (in beats-per-minute).
+ 2. What are the effects of the timing and pacing choices you made (e.g. building suspense, calming effect, fake-out, disorientation) 
 
 Here’s a [basic timing control example using frameCount](https://github.com/mimiyin/coding-for-emotional-impact/tree/master/Week%206-7%20Timing%20and%20Pacing/framecount)
 
