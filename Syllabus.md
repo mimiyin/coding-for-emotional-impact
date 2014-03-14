@@ -89,15 +89,43 @@ Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https:
 ##### HW 5: Due Sun Mar 10th | [Post to HW Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
 - Make something using recursion or controlling random or noise. Write 1-2 sentences describing what you're going for. Come in comfortable clothing next Monday!
 
-### Weeks 6, 7: Playing with Timing and Pacing and Pacing and Timing
-- Embodying pacing: Walking down Broadway.
-- Extending attention span.
-- Building tension.
+### Week 6: Introduction to Timing and Pacing
+- What's the difference between Timing and Pacing?
+- Mapping tempos to "emotional states"
+- Approaches to structuring patterns of pacing (tempo)
+- Timing the transition between order and chaos
+- Manufacturing surprise
+
+##### HW 6: Due Sun Mar 23th | [Post to HW Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
+- [Online Metronome](http://a.bestmetronome.com/)
+
+Play with timing and pacing.
+
+1. Pacing  or Tempo
+- How quickly is the pattern repeating?
+
+2. Timing: Ways to think about timing...
+- When does the pattern change? 
+- When does order turn into chaos turn into order?
+- How long do you have to do one thing, for the next thing to be surprising?
+- How big is the change?
+
+Approaches you can take if you’re stuck.
+1. Decode a video clip or piece of music you love.
+2. Code one of the patterns we decoded in class. (Notes coming soon.)
+3. Revisit something you’ve done and tighten the timing and pacing to bring it closer to the emotional arc you’re going for.
+
+Be prepared to talk about:
+1. What tempos you used (in beats-per-minute).
+2. What are the effects of the timing and pacing choices you made (e.g. building suspense, calming effect, fake-out, disorientation) 
+
+Here’s a [basic timing control example using frameCount](https://github.com/mimiyin/coding-for-emotional-impact/tree/master/Week%206-7%20Timing%20and%20Pacing/framecount)
+
+### Week 7: Expressing Timing and Pacing as Curve Functions
 - Playing with the rate of change.
 - When does change become perceptible?
 - Linear versus geometric growth.
 - Storygrapher.
-- Non-linear scoring. Pong and Pinatas.
 
 
 ### Week 8,9: Pulling It All Together
