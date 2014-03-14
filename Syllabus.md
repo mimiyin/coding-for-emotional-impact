@@ -95,6 +95,7 @@ Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https:
 - Approaches to structuring patterns of pacing (tempo)
 - Timing the transition between order and chaos
 - Manufacturing surprise
+- [Notes](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Week-6)
 
 ##### HW 6: Due Sun Mar 23th | [Post to HW Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
 - [Online Metronome](http://a.bestmetronome.com/)
