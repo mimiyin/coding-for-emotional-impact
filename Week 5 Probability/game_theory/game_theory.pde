@@ -17,6 +17,7 @@ void setup() {
   background(255);
   
   sc = new SoundCipher(this);
+  sc.instrument = sc.TIMPANI;
   
   // Create 4 "rooms" 
   for (int x = 0; x < cols; x++) {
