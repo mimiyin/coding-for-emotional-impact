@@ -15,7 +15,7 @@ class Flock {
     }
   }
 
-  void addBoid(Boid b) {
+  void release(Boid b) {
     boids.add(b);
   }
   

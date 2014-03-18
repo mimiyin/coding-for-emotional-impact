@@ -1,6 +1,7 @@
-// MIDI STUFF
-import themidibus.*;
-MidiBus myBus; 
+// MIDI library
+import arb.soundcipher.*;
+SoundCipher midi;
+
 int [] pitches = { 
   96, 84, 72, 64, 32
 };
@@ -33,8 +34,8 @@ void setup() {
   randomSeed(0);
 
   // Fire-up the midi
-  MidiBus.list(); // List all available Midi devices on STDOUT. This will show each device's index and name.    
-  myBus = new MidiBus(this, -1, "Java Sound Synthesizer"); // Create a new MidiBus with no input device and the default Java Sound Synthesizer as the output device.
+  midi = new SoundCipher(this);
+  midi.instrument = midi.TIMPANI;
 
   // Set weights for voices and wave types
   vb = new Dartboard(maxVoices, maxVoices*2);

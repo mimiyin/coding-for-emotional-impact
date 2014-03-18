@@ -1,11 +1,16 @@
 class Rain {
 
   ArrayList<Drop> drops = new ArrayList<Drop>();
-
+  AudioPlayer player;
+  float gain = -40;
+  
   Rain() {
+    player = minim.loadFile("rain.mp3");
+    player.loop();
+    player.setGain(gain);    
   }
 
-  void add(float num) {
+  void drop(float num) {
     for (int i = 0; i < num; i++) {
       drops.add(new Drop(new PVector(random(width), -10)));
     }
@@ -16,10 +21,12 @@ class Rain {
       Drop thisDrop = drops.get(i);
       thisDrop.run();
       if(thisDrop.isDead()) {
-         drops.remove(i); 
+         drops.remove(i);
       }
     }
-  }
+    gain = map(drops.size(), 0, 100, -40, 10);
+    player.setGain(gain);
+  }  
 }
 
 

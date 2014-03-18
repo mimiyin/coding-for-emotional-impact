@@ -51,13 +51,9 @@ class Voice {
     age++;
     if ( age%beat < 1) {
       beat = constrain(wave.run(), 10, wave.run());
-      for (int i = 0; i < beat; i++) {
-        myBus.sendNoteOff(channel, pitch, velocity); // Send a Midi nodeOff
-      } 
-      myBus.sendNoteOn(channel, pitch, velocity); // Send a Midi noteOn
+      midi.playNote(pitch, 100, .5); 
       return true;
     }
-
     return false;
   }
 
