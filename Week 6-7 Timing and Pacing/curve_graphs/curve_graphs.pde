@@ -86,7 +86,7 @@ void reset() {
     break;
   case 2:
     power = 0;
-    speed = 1;
+    speed = 10;
     break;
   case 3:
     speed = 0.01;
@@ -118,7 +118,7 @@ void keyPressed() {
   }
 
   if (mode >= modes || mode < 0) {
-    mode = (modes + abs(mode))%modes;
+    mode = (modes + mode%modes)%modes;
   }
 
   reset();

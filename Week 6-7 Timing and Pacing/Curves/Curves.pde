@@ -3,17 +3,20 @@
 // speed controls how long it takes to spike
 float base, speed, power;
 
+// Keep track of which Curve we're using
 int mode = 0;
 int modes = 5;
+Curve curve;
 
+// Keep track of intervals
 boolean isOn;
 float duration;
 int count;
-Curve curve;
 
 // To draw the curve
 float x, y;
 
+// Diameter of circle, tied to timing curve
 int diameter;
 
 void setup() {
@@ -22,20 +25,18 @@ void setup() {
 }
 
 void draw() {
-  
+
   if (isOn) fill(255, 0, 0);
   else fill(255);
   ellipse(width/2, height/2, diameter, diameter);
 
-  if (count >= duration) {
+  if (count >= duration*0.01) {
     duration = calc();
     diameter++;
     isOn = !isOn;
     count = 0;
     display();
   }
-
-
   count++;
 }
 
@@ -62,8 +63,8 @@ void reset() {
     curve = new Linear((float)height/(float)width);  
     break;    
   case 1:
-    speed = 0.005;
     power = 20;
+    speed = 0.005;
     curve = new Exponential(base, power, speed);
     break;
   case 2:
@@ -77,8 +78,8 @@ void reset() {
     curve = new Sigmoid(base, speed);
     break;
   case 4:
-    base = -7.5;
-    curve = new Bounce();
+    speed = 0.1;    
+    curve = new Bounce(speed);
     break;
   }  
 
@@ -96,10 +97,11 @@ void keyPressed() {
     mode--;
     break;
   }
-
+  
   if (mode >= modes || mode < 0) {
-    mode = (modes + abs(mode))%modes;
+    mode = (modes + mode%modes)%modes;
   }
+  
   reset();
 }
 
