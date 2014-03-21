@@ -16,10 +16,16 @@ class Wave {
     return wave();
   }
   
+  void mod(float _f, float _a, float _o) {
+   f = _f;     
+   a = _a;
+   o = _o;
+  }
+  
   void setT(float _t) {
    t = _t; 
   }
-
+  
   void update() {
     t+=f;
   }

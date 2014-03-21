@@ -10,10 +10,8 @@ class Rain {
     player.setGain(gain);    
   }
 
-  void drop(float num) {
-    for (int i = 0; i < num; i++) {
-      drops.add(new Drop(new PVector(random(width), -10)));
-    }
+  void drop() {
+    drops.add(new Drop(new PVector(random(width), -10)));
   }
 
   void run() {

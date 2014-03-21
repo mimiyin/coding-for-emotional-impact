@@ -3,7 +3,7 @@ import arb.soundcipher.*;
 SoundCipher midi;
 
 int [] pitches = { 
-  96, 84, 72, 64, 32
+  96, 84, 72, 64, 48
 };
 int channel = 10;
 int velocity = 127;
