@@ -1,10 +1,10 @@
 class Curve {
-  float base, power, speed;
+  float t, speed, scale;
 
-  Curve( float _base, float _power, float _speed ) {
-    base = _base;
-    power = _power;
+  Curve( float _t, float _speed, float _scale ) {
+    t = _t;
     speed = _speed;
+    scale = _scale;
   }
 
   Curve() { 
@@ -29,47 +29,47 @@ class Linear extends Curve {
 }
 
 class Exponential extends Curve {
-  Exponential(float base, float power, float speed) {
-    super(base, power, speed);
+  Exponential(float t, float speed, float scale) {
+    super(t, speed, scale);
   }
 
   float run() {
-    base += speed;
-    return pow(base, power);
+    t += speed;
+    return pow(t, scale);
   }
 }
 
 class Logarithmic extends Curve {
-  Logarithmic(float base, float power, float speed) {
-    super(base, power, speed);
+  Logarithmic(float t, float speed, float scale) {
+    super(t, speed, scale);
   }
   float run() {
-    power+=speed;
-    return log(power)*50;
+    t+=speed;
+    return log(t)*scale;
   }
 }
 
 class Sigmoid extends Curve {
-  Sigmoid(float base, float speed) {
-    super(base, 0, speed);
+  Sigmoid(float t, float speed, float scale) {
+    super(t, speed, scale);
   }
   float run() {
-    base += speed;
-    return height/(1+exp(-base));
+    t += speed;
+    return height/(1+exp(-t));
   }
 }
 
 class Bounce extends Curve {
-  float t;
-  float a = 200; // height of bounce
+  float a; // height of bounce
   
-  Bounce(float speed) {
+  Bounce(float t, float speed, float scale, float _a) {
     super(0, 0, speed);
+    a = _a;
   }
   float run() {
     t+=speed;
-    float base = sin(t)*a + a;
-    return log(base)*(a/4);
+    float n = sin(t)*a + a;
+    return log(n)*(a/4);
   }
 }
 

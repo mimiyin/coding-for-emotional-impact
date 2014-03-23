@@ -2,7 +2,7 @@
 // power controls how steep the spike is
 // bspeed controls how long it takes to spike
 float x, y;
-float base, speed, power;
+float base, speed, power, n;
 
 int mode = 0;
 int modes = 5;
@@ -31,9 +31,9 @@ float curv() {
   case 2:
     return logarithmic();
   case 3:
-    return bounce();
-  case 4:
     return sigmoid();
+  case 4:
+    return bounce();
   default:
     return linear();
   }
@@ -60,8 +60,8 @@ float exponential() {
 }
 
 float logarithmic() {
-  power+=speed;
-  return log(power)*50;
+  n+=speed;
+  return log(n)*50;
 }
 
 float sigmoid() {
@@ -70,8 +70,8 @@ float sigmoid() {
 }
 
 float bounce() {
-  base = sin(x*0.1)*200 + 200;
-  return log(base)*50;
+  n = sin(x*0.1)*200 + 200;
+  return log(n)*50;
 }
 
 void reset() {
@@ -85,16 +85,16 @@ void reset() {
     power = 20;
     break;
   case 2:
-    power = 0;
+    n = 0;
     speed = 10;
     break;
   case 3:
-    speed = 0.01;
-    power = 20;
-    break;
-  case 4:
     base = -7.5;
     speed = 0.025;
+    break;
+  case 4:
+    speed = 0.01;
+    power = 20;
     break;
   }
 }

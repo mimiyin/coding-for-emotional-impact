@@ -1,7 +1,7 @@
 
 
 float constantX, constantY, constantXSpeed;
-float linearX, linearY, linearXSpeed;
+float linearX, linearY, linearXSpeed, linearXAccel;
 float geometricX, geometricY, geometricXSpeed, geometricXAccel;
 float exponentialX, exponentialY, exponentialXSpeed, exponentialXDir;
 boolean constant, linear, geometric, exponential;
@@ -48,9 +48,9 @@ void draw() {
       linearXSpeed *= -1;
 
     if (linearXSpeed > 0)  
-      linearXSpeed++; 
+      linearXSpeed+=linearXAccel; 
     else
-      linearXSpeed--; 
+      linearXSpeed-=linearXAccel; 
 
     // With Linear Motion, you are moving the ball the same amount faster with each frame
     linearX += linearXSpeed;
@@ -128,6 +128,7 @@ void initLinear() {
   linearX = 0;
   linearY = 250;
   linearXSpeed = 0.01;
+  linearXAccel = 1;
 }
 
 void initGeometric() {

@@ -3,8 +3,7 @@
  */
 
 
-float x;
-float y;
+PVector loc = new PVector(0, 0);
 float easing = 0.05;
 
 void setup() {
@@ -16,19 +15,14 @@ void setup() {
 void draw() { 
   background(51);
 
-  float targetX = mouseX;
-  float dx = targetX - x;
-  if (abs(dx) > 1) {
-    x += dx * easing;
+  PVector target = new PVector(mouseX, mouseY);
+  PVector diff = PVector.sub(target, loc);
+  if(diff.mag() > 1) {
+    diff.mult(easing);
+    loc.add(diff);
   }
-
-  float targetY = mouseY;
-  float dy = targetY - y;
-  if (abs(dy) > 1) {
-    y += dy * easing;
-  }
-
-  ellipse(x, y, 66, 66);
+  
+  ellipse(loc.x, loc.y, 66, 66);
   text("PRESS UP/DOWN key to adjust easing.", width/2, 20);
   text("EASING FACTOR: " + easing, width/2, 40);
 }
