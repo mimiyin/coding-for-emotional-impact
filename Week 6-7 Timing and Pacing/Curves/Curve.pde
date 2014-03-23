@@ -16,15 +16,12 @@ class Curve {
 }
 
 class Linear extends Curve { 
-  float t, m; 
-
-  Linear(float _m) {
-    super(0, 0, 1);
-    m = _m;
+  Linear(float t, float speed, float scale) {
+    super(t, speed, scale);
   }
   float run() {
     t+=speed;
-    return m*t;
+    return t*scale;
   }
 }
 
@@ -71,16 +68,15 @@ class Sigmoid extends Curve {
 }
 
 class Bounce extends Curve {
-  float a; // height of bounce
-  
-  Bounce(float t, float speed, float scale, float _a) {
-    super(0, 0, speed);
-    a = _a;
+  float a;
+  Bounce(float t, float speed, float scale) {
+    super(t, speed, scale);
+    a = scale*4;
   }
   float run() {
     t+=speed;
     float n = sin(t)*a + a;
-    return log(n)*(a/4);
+    return log(n)*(scale);
   }
 }
 

@@ -1,11 +1,6 @@
-
-// power controls how steep the spike is
-// speed controls how long it takes to spike
-float t, speed, scale;
-
 // Keep track of which Curve we're using
 int mode = 0;
-int modes = 5;
+int modes = 6;
 Curve curve;
 
 // Keep track of intervals
@@ -54,27 +49,32 @@ float calc() {
 
 void reset() {
   background(0);
-  t = 0;
-  speed = 1;
-  scale = 1;
   diameter = 0;
   x = 0;
+  
+  float t, speed, scale;
 
   switch(mode) {
   case 0:
-    curve = new Linear((float)height/(float)width);  
+    t = 0;
+    speed = 1;
+    scale = (float)height/(float)width;
+    curve = new Linear(t, speed, scale);  
     break;  
   case 1:
+    t = 0;
     speed = 0.01; // rate of ascent (pacing)
     scale = 10; // how soon curve ascends (timing)
     curve = new Geometric(t, speed, scale);
     break;
   case 2:
+    t = 0;
     speed = 0.005;
     scale = 20; // sharpness of spike
     curve = new Exponential(t, speed, scale);
     break;
   case 3:
+    t = 0;
     speed = 1;
     scale = 50; // height of asymptote
     curve = new Logarithmic(t, speed, scale);
@@ -82,11 +82,14 @@ void reset() {
   case 4:
     t = -7.5;
     speed = 0.025;
+    scale = 0;
     curve = new Sigmoid(t, speed, scale);
     break;
   case 5:
-    speed = 0.1;    
-    curve = new Bounce(t, speed, scale, 200);
+    t = 0;
+    speed = 0.1; 
+    scale = 50;   
+    curve = new Bounce(t, speed, scale);
     break;
   }  
 
@@ -104,11 +107,11 @@ void keyPressed() {
     mode--;
     break;
   }
-  
+
   if (mode >= modes || mode < 0) {
     mode = (modes + mode%modes)%modes;
   }
-  
+
   reset();
 }
 
