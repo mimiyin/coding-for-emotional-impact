@@ -63,23 +63,28 @@ void reset() {
   switch(mode) {
   case 0:
     curve = new Linear((float)height/(float)width);  
-    break;    
+    break;  
   case 1:
+    speed = 0.01; // rate of ascent (pacing)
+    scale = 10; // how soon curve ascends (timing)
+    curve = new Geometric(t, speed, scale);
+    break;
+  case 2:
     speed = 0.005;
     scale = 20; // sharpness of spike
     curve = new Exponential(t, speed, scale);
     break;
-  case 2:
+  case 3:
     speed = 1;
     scale = 50; // height of asymptote
     curve = new Logarithmic(t, speed, scale);
     break;
-  case 3:
+  case 4:
     t = -7.5;
     speed = 0.025;
     curve = new Sigmoid(t, speed, scale);
     break;
-  case 4:
+  case 5:
     speed = 0.1;    
     curve = new Bounce(t, speed, scale, 200);
     break;

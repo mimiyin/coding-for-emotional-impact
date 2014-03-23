@@ -22,7 +22,7 @@ int [] indices = {
 
 
 // Timer Curve
-Curve curve = new Sigmoid(-7.5, 0.025);
+Curve curve = new Sigmoid(-7.5, 0.025, 1);
 float duration;
 int count;
 

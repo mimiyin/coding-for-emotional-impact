@@ -5,7 +5,7 @@ float x, y;
 float base, speed, power, n;
 
 int mode = 0;
-int modes = 5;
+int modes = 6;
 
 boolean down;
 
@@ -27,12 +27,14 @@ void draw() {
 float curv() {
   switch(mode) {
   case 1:
-    return exponential();
+    return geometric();
   case 2:
-    return logarithmic();
+    return exponential();
   case 3:
-    return sigmoid();
+    return logarithmic();
   case 4:
+    return sigmoid();
+  case 5:
     return bounce();
   default:
     return linear();
@@ -52,6 +54,11 @@ void label() {
 float linear() {
   float m = (float)height/(float)width;
   return m*x;
+}
+
+float geometric() {
+  power+=speed;
+  return pow(base, power);
 }
 
 float exponential() {
@@ -81,18 +88,23 @@ void reset() {
 
   switch(mode) {
   case 1:
+    base = 20; // how soon curve ascends (timing)
+    power = 1;
+    speed = 0.01; // rate of ascent (pacing)
+    break;
+  case 2:
     speed = 0.005;
     power = 20;
     break;
-  case 2:
+  case 3:
     n = 0;
     speed = 10;
     break;
-  case 3:
+  case 4:
     base = -7.5;
     speed = 0.025;
     break;
-  case 4:
+  case 5:
     speed = 0.01;
     power = 20;
     break;

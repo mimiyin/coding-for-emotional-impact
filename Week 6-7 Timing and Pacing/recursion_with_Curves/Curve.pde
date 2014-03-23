@@ -1,10 +1,10 @@
 class Curve {
-  float base, power, speed;
+  float t, speed, scale;
 
-  Curve( float _base, float _power, float _speed ) {
-    base = _base;
-    power = _power;
+  Curve( float _t, float _speed, float _scale ) {
+    t = _t;
     speed = _speed;
+    scale = _scale;
   }
 
   Curve() { 
@@ -16,59 +16,71 @@ class Curve {
 }
 
 class Linear extends Curve { 
-  float m, t; 
+  float t, m; 
 
   Linear(float _m) {
-    super();
+    super(0, 0, 1);
     m = _m;
   }
   float run() {
-    t++;
+    t+=speed;
     return m*t;
   }
 }
 
-class Exponential extends Curve {
-  Exponential(float base, float power, float speed) {
-    super(base, power, speed);
+class Geometric extends Curve {
+  Geometric(float t, float speed, float scale) {
+    super(t, speed, scale);
   }
 
   float run() {
-    base += speed;
-    return pow(base, power);
+    t += speed;
+    return pow(scale, t);
+  }
+}
+
+class Exponential extends Curve {
+  Exponential(float t, float speed, float scale) {
+    super(t, speed, scale);
+  }
+
+  float run() {
+    t += speed;
+    return pow(t, scale);
   }
 }
 
 class Logarithmic extends Curve {
-  Logarithmic(float base, float power, float speed) {
-    super(base, power, speed);
+  Logarithmic(float t, float speed, float scale) {
+    super(t, speed, scale);
   }
   float run() {
-    power+=speed;
-    return log(power)*50;
+    t+=speed;
+    return log(t)*scale;
   }
 }
 
 class Sigmoid extends Curve {
-  Sigmoid(float base, float speed) {
-    super(base, 0, speed);
+  Sigmoid(float t, float speed, float scale) {
+    super(t, speed, scale);
   }
   float run() {
-    base += speed;
-    return height/(1+exp(-base));
+    t += speed;
+    return height/(1+exp(-t));
   }
 }
 
 class Bounce extends Curve {
-  float t;
+  float a; // height of bounce
   
-  Bounce() {
-    super();
+  Bounce(float t, float speed, float scale, float _a) {
+    super(0, 0, speed);
+    a = _a;
   }
   float run() {
-    t++;
-    float base = sin(t*0.1)*200 + 200;
-    return log(base)*50;
+    t+=speed;
+    float n = sin(t)*a + a;
+    return log(n)*(a/4);
   }
 }
 
