@@ -69,8 +69,8 @@ void reset() {
     break;
   case 2:
     t = 0;
-    speed = 0.005;
-    scale = 20; // sharpness of spike
+    speed = 0.002; // how long it takes to get to spike - the smaller the number, the longer it takes
+    scale = 200; // sharpness of spike
     curve = new Exponential(t, speed, scale);
     break;
   case 3:
