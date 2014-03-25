@@ -121,11 +121,12 @@ Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https:
 Here’s a [basic timing control example using frameCount](https://github.com/mimiyin/coding-for-emotional-impact/tree/master/Week%206-7%20Timing%20and%20Pacing/framecount)
 
 ### Week 7: Expressing Timing and Pacing as Curve Functions
-- Playing with the rate of change.
-- When does change become perceptible?
-- Linear versus geometric growth.
-- Storygrapher.
+- Playing with the rate of change as a curve
+- Linear versus geometric versus exponential growth.
+- [Notes](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Week-7)
 
+##### HW 7  Due Sun Mar 30th | [Post to HW Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
+- Play with timing curves.
 
 ### Week 8,9: Pulling It All Together
 - A polyphonic model for composing narrative and emotional arc.
