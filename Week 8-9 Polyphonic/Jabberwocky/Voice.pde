@@ -3,13 +3,13 @@ class Voice {
   Wave wave; 
   boolean on; 
   int index;
-  color col;
+  String word;
   float value = 1;
   int counter = 0;
   
-  Voice(int _index) {
+  Voice(int _index, String _word) {
     index = _index;
-    col = color(0, index*16 + 16);
+    word = _word;
     waves.add(new Sine());
     waves.add(new Cosine());
     waves.add(new Tan());

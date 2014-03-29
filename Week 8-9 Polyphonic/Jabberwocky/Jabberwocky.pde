@@ -33,7 +33,7 @@ void setup() {
 
   // Create max number of Voices
   for (int i = 0; i < max; i++) {
-    voices.add(new Voice(i));
+    voices.add(new Voice(i, jabber[i]));
   }
 }
 
