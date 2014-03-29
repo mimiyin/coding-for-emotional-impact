@@ -16,12 +16,14 @@ class Wave {
     return wave();
   }
   
+  // Modify the wave
   void mod(float _f, float _a, float _o) {
    f = _f;     
    a = _a;
    o = _o;
   }
   
+  // Set the time
   void setT(float _t) {
    t = _t; 
   }
@@ -33,7 +35,7 @@ class Wave {
   float wave() {
     return 0;
   }
-
+  // Get the wave type
   String getType() {
     return type;
   }
