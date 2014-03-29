@@ -35,7 +35,8 @@ class Voice {
     //////////////////////PLAY WITH THESE NUMBERS/////////////////////
     //////////////////////////////////////////////////////////////////
     //////////////////////////////////////////////////////////////////
-
+    
+    // Assign random frequencies and amplitudes
     float freq = random(0.01, 0.1);
     float amp = random(100, 1000);
     wave.init(0, freq, amp, amp);
@@ -46,9 +47,9 @@ class Voice {
     println("INIT VOICE " + index + "\tLIFESPAN: " + lifespan + "\tWAVE TYPE: " + wave.getType() + "\tFREQ: " + freq + "\tAMP: " + amp);
   }
 
-
   boolean run() {
-    age++;
+    age++;   // Keep track of how long the voice has been going for
+    // Play the beat
     if ( age%beat < 1) {
       beat = constrain(wave.run(), 10, wave.run());
       midi.playNote(pitch, 100, .5); 
@@ -56,7 +57,8 @@ class Voice {
     }
     return false;
   }
-
+  
+  // Check for dead
   boolean isDead() {
     return age > lifespan;
   }

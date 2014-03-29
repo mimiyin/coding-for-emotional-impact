@@ -139,6 +139,7 @@ void loadScenes(File folder) {
   for (int i = 0; i < files.length; i++) {
     String filename = files[i].getName().toLowerCase();
     String path = files[i].getAbsolutePath();
+    println(path);
     if (filename.matches(".+\\.(png|jpg|jpeg|gif|tga)$")) {
       try {
         sb.addStill(path);

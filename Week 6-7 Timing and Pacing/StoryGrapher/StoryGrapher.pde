@@ -66,7 +66,6 @@ void setup() {
 }
 
 void draw() {
-  println(frameRate);
   // Drawing the storyboard graph
   if (isDrawable) {
     background(255);

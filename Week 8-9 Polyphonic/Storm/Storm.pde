@@ -31,6 +31,8 @@ Flock flock;
 void setup() {
   size(800, 600);
   background(255);
+  
+  // Initialize "storm specific stuff"
   minim = new Minim(this);
   rain = new Rain();
   thunder = new Thunder();
@@ -72,6 +74,10 @@ void draw() {
       display(value, offset, thisVoice.col);
       switch(i) {
       case 0:
+        // Don't make too much rain
+        // Mostly for capping Tan
+        println("VALUE: " + value);
+        value = constrain(value, 0, 1000);
         for (int r = 1; r < value*0.01; r++) {
           rain.drop();
         }
@@ -91,21 +97,9 @@ void draw() {
 
   // Keep it raining
   rain.run();
-  thunder.run();
   flock.run();
   // Draw label
   label();
-}
-
-// Pick a voice
-int fire(float min, float max, float[] zones) {
-  float dart = random(min, max); 
-  for (int i = 0; i < zones.length; i++) {
-    if ( dart <= zones[i]) {
-      return i;
-    }
-  }
-  return -1;
 }
 
 // Draw the graph
@@ -119,6 +113,7 @@ void display(float y, float yoff, color col) {
 }
 
 
+// Display label
 void label() {
   fill(0);
   rect(0, 0, width, 50);
@@ -129,7 +124,7 @@ void label() {
     waveTypes += (i+1) + ": " + voices.get(i).getType() + "\t\t";
   }
   text("Press TAB to change WAVE TYPE: " + types[type] + "\t\t\t(mouseY)\tAMP: " + amplitude + "\t\t\t(mouseX)\tFREQ: " + frequency, 10, 20);
-  text("Pres NUM KEY to turn on VOICE: " + waveTypes + "\t\t\tSelected Voice: " + voice.index+1, 10, 40 );
+  text("Pres NUM KEY to turn on VOICE: " + waveTypes + "\t\t\tSelected Voice: " + (voice.index+1), 10, 40 );
 }
 
 void mouseMoved() {

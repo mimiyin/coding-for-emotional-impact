@@ -1,7 +1,8 @@
 class Dartboard {
   float [] zones;
   float min, max;
-
+  
+  // Create a dartboard of probabilities
   Dartboard(int numZones, float _max) {
     zones = new float[numZones];
     float offset = 0;
@@ -15,7 +16,8 @@ class Dartboard {
     print("\n");
     max = _max < 0 ? offset : _max;
   }
-
+  
+  // Fire at the dartboard
   int fire() {
     float dart = random(min, max); 
     

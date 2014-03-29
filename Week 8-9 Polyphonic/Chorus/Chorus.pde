@@ -37,12 +37,13 @@ void setup() {
   midi = new SoundCipher(this);
   midi.instrument = midi.TIMPANI;
 
-  // Set weights for voices and wave types
+  // Create weighted probabilities for num of voices to add and picking wave types
   vb = new Dartboard(maxVoices, maxVoices*2);
   wb = new Dartboard(5, -1);
 }
 
 void draw() {
+  // Wrap the visualization
   x++;
   if (x > width*(tx+1)) {
     tx++;
@@ -59,6 +60,7 @@ void draw() {
       if (voices[i] == null) continue;
       if (voices[i].isDead()) {
         numVoices--;
+        // Cue up some voices if one died
         cueVoices();
       }
       else {
@@ -66,6 +68,7 @@ void draw() {
       }
     }
   }
+  // Cue up some voices if there are none
   else cueVoices();
   popMatrix();
 }
@@ -75,12 +78,13 @@ void display(int row) {
   rect(x, (row+1)*height/(maxVoices+1), 5, 10);
 }
 
+// Decide how many voices to add
 void cueVoices() {
   int add = vb.fire();
   if (add > 0) voices = addVoices(add);
 }
 
-
+// Add a voice to any "dead" spots in the chorus
 Voice[] addVoices(int max) {
   int numToAdd = max - numVoices;
   if (numToAdd > 0) {
