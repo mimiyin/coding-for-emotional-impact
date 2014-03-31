@@ -30,8 +30,6 @@ void setup() {
 
   // Base amplitude on window height
   amplitude = height/(max*2);
-  // Calculate ground location
-  ground = height-(amplitude*max*2*scale);
 
   // Create max number of Voices
   for (int i = 0; i < max; i++) {

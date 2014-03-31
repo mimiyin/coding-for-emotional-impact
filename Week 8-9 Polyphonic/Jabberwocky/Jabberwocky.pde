@@ -16,7 +16,7 @@ String [] types = {
 // Chorus of voices
 ArrayList<Voice> voices = new ArrayList<Voice>();
 // Selected voice
-Voice voice = new Voice(-1);
+Voice voice = new Voice(-1, "");
 
 // Each word is a voice
 String [] jabber = "i you don't love me".split(" ");
@@ -66,12 +66,12 @@ void label() {
   
   String waveTypes = "";
   for (int i = 0; i < voices.size(); i++) {
-    waveTypes += jabber[i] + ": " + voices.get(i).getType() + "\t\t";
+    waveTypes += jabber[i] + ": " + voices.get(i).getType() + "\t\t ";
   }
   textAlign(LEFT, TOP);
   textSize(14);
-  text("Press TAB to change WAVE TYPE: " + types[type] + "\t\t\t(mouseY)\tAMP: " + amplitude + "\t\t\t(mouseX)\tFREQ: " + frequency, 10, 20);
-  text("Pres NUM KEY to turn on VOICE: " + waveTypes + "\t\t\tSelected Voice: " + jabber[voice.index >= 0 ? voice.index : 0], 10, 40 );
+  text("Press TAB to change WAVE TYPE: " + types[type] + "\t\t\t(mouseY) \tAMP: " + amplitude + "\t\t\t(mouseX) \tFREQ: " + frequency, 10, 20);
+  text("Pres NUM KEY to turn on VOICE: " + waveTypes + "\t\t\t Selected Voice: " + jabber[voice.index >= 0 ? voice.index : 0], 10, 40 );
 }
 
 void mouseMoved() {
@@ -89,7 +89,7 @@ void keyPressed() {
   if (index >=0 && index < max) {
     voice = voices.get(index);
     voice.toggle(type);
-    if (!voice.on) voice = new Voice(-1);
+    if (!voice.on) voice = new Voice(-1, "");
   }
 
   switch(keyCode) {

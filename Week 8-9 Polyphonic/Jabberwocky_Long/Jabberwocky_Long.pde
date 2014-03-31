@@ -58,7 +58,7 @@ void label() {
   
   String waveTypes = "";
   for (int i = 0; i < voices.size(); i++) {
-    waveTypes += jabber[i] + ": " + voices.get(i).getType() + "\t\t";
+    waveTypes += jabber[i] + ": " + voices.get(i).getType() + "\t\t ";
   }
   textAlign(LEFT, TOP);
   textSize(14);
