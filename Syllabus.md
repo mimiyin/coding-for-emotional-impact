@@ -132,7 +132,8 @@ Here’s a [basic timing control example using frameCount](https://github.com/mi
 - A polyphonic model for composing narrative and emotional arc. | [Notes](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Week-8)
 - Scoring for Momentous Occasions and Catastrophic Events
 
-#### HW 8 Due Sun Apr 6
+#### HW 8 Due Sun Apr 7 | [Post to HW Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
+- Play with timing curves.
 Option 1: Use the keyboard and mouse to create compositions out of the examples from class.
 - Goal is honing compositional skills using the knobs and dials of turning voices on and off and controlling their wave patterns.	
 - Make a storm. | [Code](https://github.com/mimiyin/coding-for-emotional-impact/tree/master/Week%208-9%20Polyphonic/Storm)
