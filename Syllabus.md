@@ -134,6 +134,7 @@ Here’s a [basic timing control example using frameCount](https://github.com/mi
 
 #### HW 8 Due Sun Apr 6
 Option 1: Use the keyboard and mouse to create compositions out of the examples from class.
+- Goal is honing compositional skills using the knobs and dials of turning voices on and off and controlling their wave patterns.	
 - Make a storm. | [Code](https://github.com/mimiyin/coding-for-emotional-impact/tree/master/Week%208-9%20Polyphonic/Storm)
 - Make the circle dance. | [Code](https://github.com/mimiyin/coding-for-emotional-impact/tree/master/Week%208-9%20Polyphonic/Circle)
 - Make a poem. | [Flash-y version](https://github.com/mimiyin/coding-for-emotional-impact/tree/master/Week%208-9%20Polyphonic/Jabberwocky) | [Timed version](https://github.com/mimiyin/coding-for-emotional-impact/tree/master/Week%208-9%20Polyphonic/Jabberwocky_Long)
@@ -141,9 +142,11 @@ Option 1: Use the keyboard and mouse to create compositions out of the examples 
 - Record the keyboard interactions you used to create your composition, like a score so someone else could repeat it.
 
 Option 2: Customize the examples from class.
-- Hook up the storm example to your own code: Make a farmyard, make a galaxy.
-- Change up the circle, turn it into a rectangle or hook up a crazy 3D object.
-- Change the array of strings to create a poem with your own content.
+- Replace the storm code with your own classes: Make a farmyard, make a galaxy, make a dance party of monsters.
+- Change up the circle, turn it into a rectangle or hook it up to one of your previous sketches.
+- Change the array of strings to create a "poem" with your own content. Use the numbers coming out of the Voice objects to control a different aspect of the words: 
+ - e.g. alpha to fade the words in and out
+ - e.g. spell the words out one letter at a time and use the voices to control how many letters to spell out
 
 Option 3: Roll your own. Create your own polyphonic compositions from scratch.
 - Check out [Chorus](https://github.com/mimiyin/coding-for-emotional-impact/tree/master/Week%208-9%20Polyphonic/Chorus) for an example of how to make the voices change and turn on and off on auto-pilot (requires [SoundCipher](http://explodingart.com/soundcipher/))
