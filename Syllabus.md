@@ -146,8 +146,10 @@ Option 2: Customize the examples from class.
 - Replace the storm code with your own classes: Make a farmyard, make a galaxy, make a dance party of monsters.
 - Change up the circle, turn it into a rectangle or hook it up to one of your previous sketches.
 - Change the array of strings to create a "poem" with your own content. Use the numbers coming out of the Voice objects to control a different aspect of the words: 
- - e.g. alpha to fade the words in and out
- - e.g. spell the words out one letter at a time and use the voices to control how many letters to spell out
+- e.g. alpha to fade the words in and out 
+- e.g. relative ordering of the words in space
+- e.g. spell the words out one letter at a time and use the voices to control how many letters to spell out
+- e.g. whatever other crazy thing you can think of!
 
 Option 3: Roll your own. Create your own polyphonic compositions from scratch.
 - Check out [Chorus](https://github.com/mimiyin/coding-for-emotional-impact/tree/master/Week%208-9%20Polyphonic/Chorus) for an example of how to make the voices change and turn on and off on auto-pilot (requires [SoundCipher](http://explodingart.com/soundcipher/))
