@@ -130,18 +130,13 @@ Here’s a [basic timing control example using frameCount](https://github.com/mi
 
 ### Week 8,9: Pulling It All Together
 - A polyphonic model for composing narrative and emotional arc.
-- Polygrapher
+- Socring for Momentous Occasions and Catastrophic Events
 
-### Week 10: Momentous Occasions and Catastrophic Events
-- Establishing landmark events.
-- Building up to a grand finale.
-- Orchestrating a disaster.
-- Defining conditions to set thresholds.
-- Orchestrating moral dilemmas.
+### Week 10: Present proposal final project
 
-### Week 11: Small group presentations / discussions of final project.
+### Week 11: 8 of you will present works-in-progress
 
-### Week 12: Final project presentations
+### Week 12: 8 of you will present final projects
 
 ============================
 ## Grading
