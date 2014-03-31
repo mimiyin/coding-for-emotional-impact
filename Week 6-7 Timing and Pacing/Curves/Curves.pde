@@ -65,13 +65,13 @@ void reset() {
     t = 0;
     speed = 0.01; // rate of ascent (pacing)
     scale = 10; // how soon curve ascends (timing)
-    curve = new Geometric(t, speed, scale);
+    curve = new Airplane(t, speed, scale);
     break;
   case 2:
     t = 0;
     speed = 0.002; // how long it takes to get to spike - the smaller the number, the longer it takes
     scale = 200; // sharpness of spike
-    curve = new Exponential(t, speed, scale);
+    curve = new RocketShip(t, speed, scale);
     break;
   case 3:
     t = 0;

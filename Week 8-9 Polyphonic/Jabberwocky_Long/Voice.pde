@@ -45,18 +45,22 @@ class Voice {
   
   void run() {
     println(value);
+    // Calculate the duration of the next beat
+    // Reset the counter back to zero
     if(counter > value) {
       wave.update();
       value = wave.run();
       counter = 0;
     }
     
-    // Display the word for half the count
+    // Display the word for 10% of the count
     if(counter < value/10) {
        textSize(value);
        textAlign(CENTER, CENTER);
        text(word, width/2, height/2); 
     }  
+    
+    // Always be counting!!!
     counter++;    
   }
 }

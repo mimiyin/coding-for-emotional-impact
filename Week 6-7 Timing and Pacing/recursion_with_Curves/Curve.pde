@@ -25,8 +25,8 @@ class Linear extends Curve {
   }
 }
 
-class Geometric extends Curve {
-  Geometric(float t, float speed, float scale) {
+class Airplane extends Curve {
+  Airplane(float t, float speed, float scale) {
     super(t, speed, scale);
   }
 
@@ -36,8 +36,8 @@ class Geometric extends Curve {
   }
 }
 
-class Exponential extends Curve {
-  Exponential(float t, float speed, float scale) {
+class RocketShip extends Curve {
+  RocketShip(float t, float speed, float scale) {
     super(t, speed, scale);
   }
 

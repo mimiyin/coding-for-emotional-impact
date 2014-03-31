@@ -27,9 +27,9 @@ void draw() {
 float curv() {
   switch(mode) {
   case 1:
-    return geometric();
+    return airplane();
   case 2:
-    return exponential();
+    return rocketship();
   case 3:
     return logarithmic();
   case 4:
@@ -56,12 +56,12 @@ float linear() {
   return m*x;
 }
 
-float geometric() {
+float airplane() {
   power+=speed;
   return pow(base, power);
 }
 
-float exponential() {
+float rocketship() {
   base += speed;
   return pow(base, power);
 }

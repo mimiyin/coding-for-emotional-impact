@@ -1,6 +1,3 @@
-// Drawing the graph
-float x, y;
-
 // Starting freq and amp for waves
 float frequency = 0.005;
 float amplitude = 10;
@@ -27,9 +24,6 @@ int max = jabber.length; // Total number of "voices"
 void setup() {
   size(800, 600);
   background(255);
-
-  // Base amplitude on window height
-  amplitude = height/(max*2);
 
   // Create max number of Voices
   for (int i = 0; i < max; i++) {
