@@ -129,8 +129,25 @@ Here’s a [basic timing control example using frameCount](https://github.com/mi
 - Play with timing curves.
 
 ### Week 8,9: Pulling It All Together
-- A polyphonic model for composing narrative and emotional arc.
-- Socring for Momentous Occasions and Catastrophic Events
+- A polyphonic model for composing narrative and emotional arc. | [Notes](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Week-8)
+- Scoring for Momentous Occasions and Catastrophic Events
+
+#### HW 8 Due Sun Apr 6
+Option 1: Use the keyboard and mouse to create compositions out of the examples from class.
+- Make a storm. | [Code](https://github.com/mimiyin/coding-for-emotional-impact/tree/master/Week%208-9%20Polyphonic/Storm)
+- Make the circle dance. | [Code](https://github.com/mimiyin/coding-for-emotional-impact/tree/master/Week%208-9%20Polyphonic/Circle)
+- Make a poem. | [Flash-y version](https://github.com/mimiyin/coding-for-emotional-impact/tree/master/Week%208-9%20Polyphonic/Jabberwocky) | [Timed version](https://github.com/mimiyin/coding-for-emotional-impact/tree/master/Week%208-9%20Polyphonic/Jabberwocky_Long)
+- Record your composition with screen capture. 
+- Record the keyboard interactions you used to create your composition, like a score so someone else could repeat it.
+
+Option 2: Customize the examples from class.
+- Hook up the storm example to your own code: Make a farmyard, make a galaxy.
+- Change up the circle, turn it into a rectangle or hook up a crazy 3D object.
+- Change the array of strings to create a poem with your own content.
+
+Option 3: Roll your own. Create your own polyphonic compositions from scratch.
+- Check out [Chorus](https://github.com/mimiyin/coding-for-emotional-impact/tree/master/Week%208-9%20Polyphonic/Chorus) for an example of how to make the voices change and turn on and off on auto-pilot (requires [SoundCipher](http://explodingart.com/soundcipher/))
+
 
 ### Week 10: Present proposal final project
 
