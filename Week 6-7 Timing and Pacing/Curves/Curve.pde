@@ -6,12 +6,18 @@ class Curve {
     speed = _speed;
     scale = _scale;
   }
-
-  Curve() { 
+  
+  void update() {
+   t += speed; 
   }
-
+  
+  float calc() {
+   return 0; 
+  }
+  
   float run() {
-    return 0;
+    update();
+    return calc();
   }
 }
 
@@ -19,8 +25,7 @@ class Linear extends Curve {
   Linear(float t, float speed, float scale) {
     super(t, speed, scale);
   }
-  float run() {
-    t+=speed;
+  float calc() {
     return t*scale;
   }
 }
@@ -30,8 +35,7 @@ class Airplane extends Curve {
     super(t, speed, scale);
   }
 
-  float run() {
-    t += speed;
+  float calc() {
     return pow(scale, t);
   }
 }
@@ -41,8 +45,7 @@ class RocketShip extends Curve {
     super(t, speed, scale);
   }
 
-  float run() {
-    t += speed;
+  float calc() {
     return pow(t, scale);
   }
 }
@@ -51,8 +54,7 @@ class Logarithmic extends Curve {
   Logarithmic(float t, float speed, float scale) {
     super(t, speed, scale);
   }
-  float run() {
-    t+=speed;
+  float calc() {
     return log(t)*scale;
   }
 }
@@ -61,8 +63,7 @@ class Sigmoid extends Curve {
   Sigmoid(float t, float speed, float scale) {
     super(t, speed, scale);
   }
-  float run() {
-    t += speed;
+  float calc() {
     return height/(1+exp(-t));
   }
 }
@@ -73,8 +74,7 @@ class Bounce extends Curve {
     super(t, speed, scale);
     a = scale*4;
   }
-  float run() {
-    t+=speed;
+  float calc() {
     float n = sin(t)*a + a;
     return log(n)*(scale);
   }
