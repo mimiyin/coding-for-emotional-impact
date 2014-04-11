@@ -1,14 +1,32 @@
 class Car {
+  int type;
+  color col;
+  float diameter;
   PVector location, velocity, acceleration;
-  float diameter = 10;
-  
-  
-  Car(PVector _location, PVector _velocity, PVector _acceleration) {
+
+
+  Car(int _type, PVector _location, PVector _velocity, PVector _acceleration) {
+    type = _type;
     location = _location;
     velocity = _velocity;
-    acceleration = _acceleration;    
+    acceleration = _acceleration;  
+
+    switch(type) {
+    case 0:
+      col = color(0, 0, 255);
+      diameter = 30;
+      break;
+    case 1:
+      col = color(0, 255, 0);
+      diameter = 20;
+      break;
+    case 2:
+      col = color(255, 0, 0);
+      diameter = 10;
+      break;
+    }
   }
-  
+
   void run() {
     update();
     display();
@@ -18,17 +36,20 @@ class Car {
     // Accelerate
     velocity.add(acceleration);
     // Move
-    location.add(velocity);    
+    location.add(velocity);
   }
-  
+
   void setSize(float sz) {
-     diameter = sz; 
+    diameter = sz;
   }
 
   void display() {
-    float o = map(acceleration.x, 0, 1, 100, 255);
-    fill(255, 0, 0, o);
+    fill(col);
     ellipse(location.x, location.y, diameter, diameter);
   }  
+
+  boolean isDead() {
+    return location.x > width;
+  }
 }
 

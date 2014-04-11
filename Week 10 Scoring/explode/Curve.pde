@@ -1,87 +1,86 @@
 class Curve {
-  float t, base, power, speed;
+  float t, speed, scale;
 
-  Curve( float _base, float _power, float _speed ) {
-    base = _base;
-    power = _power;
+  Curve( float _t, float _speed, float _scale ) {
+    t = _t;
     speed = _speed;
+    scale = _scale;
   }
-
-  Curve() {
+  
+  void adjust(int dir) {
+    t += speed*dir;
   }
-
-  void update( float _t, float b, float p, float s ) {
-    t += _t;
-    base += b;
-    power += p;
-    speed += s;
-  } 
-
+  
+  void update() {
+   t += speed; 
+  }
+  
+  float calc() {
+   return 0; 
+  }
+  
   float run() {
-    return 0;
+    update();
+    return calc();
   }
 }
 
 class Linear extends Curve { 
-  float m; 
-
-  Linear(float _m) {
-    super(0, 0, 0);
-    m = _m;
+  Linear(float t, float speed, float scale) {
+    super(t, speed, scale);
   }
-  float run() {
-    t+=speed;
-    t = constrain(t, 0, 1000);
-    return m*t;
+  float calc() {
+    return t*scale;
   }
 }
 
-class Exponential extends Curve {
-  Exponential(float base, float power, float speed) {
-    super(base, power, speed);
+class Airplane extends Curve {
+  Airplane(float t, float speed, float scale) {
+    super(t, speed, scale);
   }
 
-  float run() {
-    base += speed;
-    return pow(base, power);
+  float calc() {
+    return pow(scale, t);
+  }
+}
+
+class RocketShip extends Curve {
+  RocketShip(float t, float speed, float scale) {
+    super(t, speed, scale);
+  }
+
+  float calc() {
+    return pow(t, scale);
   }
 }
 
 class Logarithmic extends Curve {
-  Logarithmic(float base, float power, float speed) {
-    super(base, power, speed);
+  Logarithmic(float t, float speed, float scale) {
+    super(t, speed, scale);
   }
-  float run() {
-    power = constrain(power, 1, 1000);
-    power+=speed;
-    return log(power)*50;
+  float calc() {
+    return log(t)*scale;
   }
 }
 
 class Sigmoid extends Curve {
-  float value, pValue;
-  Sigmoid(float base, float speed) {
-    super(base, 0, speed);
+  Sigmoid(float t, float speed, float scale) {
+    super(t, speed, scale);
   }
-  float run() {
-    base += speed;
-    base = constrain(base, -7.5, 10);
-    pValue = value;
-    value = height/(1+exp(-base));
-    print("BASE: " + base);
-    return value-pValue;
+  float calc() {
+    return height/(1+exp(-t));
   }
 }
 
 class Bounce extends Curve {
-
-  Bounce(float _speed) {
-    super(0, 0, _speed);
+  float a;
+  Bounce(float t, float speed, float scale) {
+    super(t, speed, scale);
+    a = scale*4;
   }
-  float run() {
-    t+=speed;
-    float base = sin(t*0.1)*200 + 200;
-    return log(base)*50;
+  float calc() {
+    float n = sin(t)*a + a;
+    return log(n)*(scale);
   }
 }
 

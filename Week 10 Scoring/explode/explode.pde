@@ -26,11 +26,18 @@ ArrayList<Voice> voices = new ArrayList<Voice>();
 // Selected voice
 Voice voice = new Voice(-1);
 
+// Likelihood of no cars
+float ceilingFactor;
+
 // Cars
 ArrayList<Car> cars = new ArrayList<Car>();
 
-// Scoring
-Score score = new Score(new Linear(1));
+// Scoring curves
+// 1 for each "speed" of car
+Score sloScore = new Score(new Logarithmic(1, 1, 50));
+Score medScore = new Score(new Linear(0, 1, 10));
+Score fastScore = new Score(new RocketShip(0, 0.1, 200));
+
 
 void setup() {
   size(800, 600);
@@ -49,11 +56,11 @@ void setup() {
   for (int i = 0; i < max; i++) {
     voices.add(new Voice(i));
   }
+  
+  ceilingFactor = 10;
 }
 
 void draw() {
-
-
   // Move the graph along
   if (x > width) {
     background(255);
@@ -77,7 +84,7 @@ void draw() {
     Voice thisVoice = voices.get(i);
     if (thisVoice.on) {
       float value = thisVoice.run();
-      display(value, offset, thisVoice.col);
+      graph(value, offset, thisVoice.col);
       offset += value;
       values[i] = value;
     }
@@ -88,36 +95,57 @@ void draw() {
   }
 
   // Pick a voice
-  int i = fire(0, height, offsets);
+  // Adjust amount of room for nothing to happen
+  float ceiling = height*ceilingFactor;
+  int i = fire(0, ceiling, offsets);
   if (i >=0) {
     float y = values[i];
     float yoff = offsets[i] - y;
-    display(y, yoff, color(255, 0, 0, 100));
+    graph(y, yoff, color(255, 0, 0, 100));
   }
 
-  PVector location = new PVector(-width/2, random(100));
-  PVector velocity = new PVector(0, 0);
+  // Init each car with a location, velocity and acceleration
+  PVector location = new PVector(0, random(10, 90));
+  PVector velocity = new PVector(1, 0);
   PVector acceleration = new PVector(0, 0); 
-  // Conduct sketch based on which voice was chosen
+
+  // Set acceleration and score for SLOW, MEDIUM and FAST cars
   switch(i) {
   case 0:
     acceleration.x = random(0.001, 0.01);
+    sloScore.update(1);
     break;
   case 1:
     acceleration.x = random(0.01, 0.1);
+    medScore.update(1);
     break;
   case 2:
     acceleration.x = random(0.1, 1);
+    fastScore.update(1);
     break;
   }
 
   // Add car
   if (i >=0 ) {
-    cars.add(new Car(location, velocity, acceleration));
-    score.update(acceleration.x);
+    cars.add(new Car(i, location, velocity, acceleration));
   }
-  else score.update(-0.1);
 
+
+
+  // Calculate total score
+  float s = sloScore.calc() + medScore.calc() + fastScore.calc();
+  print("SLOW SCORE: " + sloScore.calc());
+  print("\tMED SCORE: " + medScore.calc());
+  print("\tFAST SCORE: " + fastScore.calc());
+  println("\tTOTAL: " + s);
+
+  // Set threshold to explode car size and make it loud
+  if (s > 500) {
+    for (Car c: cars) c.setSize(100);
+    gain = 10;
+  }
+
+  // Drive cars
   pushMatrix();
   translate(0, (height/2)-50);
   fill(255);
@@ -125,34 +153,32 @@ void draw() {
   // Run cars
   for (int c = cars.size()-1; c > 0; c--) {
     Car thisCar = cars.get(c);
-    if (thisCar.location.x > width) {
+    if (thisCar.isDead()) {
+      int type = thisCar.type;
+      switch(type) {
+      case 0:
+        sloScore.update(-1);
+        break; 
+      case 1:
+        medScore.update(-1);
+        break;        
+      case 2:
+        fastScore.update(-1);
+        break;
+      }
       cars.remove(c);
     }
     thisCar.run();
   }
   popMatrix();
 
-  // Calculate score
-  float s = score.calc();
-  println("SCORE: " + s);  
-
-  // Explode car size and make it loud
-  if (s > 300) {
-    for (Car c: cars) c.setSize(100);
-    gain = 10;
-  }
-
-  // Lose volume
-  gain-=0.1;
+  // Set gain based on score
+  gain = map(s, 0, 500, -80, 0);
   gain = constrain(gain, -80, 10);
   siren.setGain(gain);
 
-  // Draw the score
-  stroke(255);
-  strokeWeight(10);
-  fill(255, 0, 0);
-  ellipse(width/2, height-s, 20, 20);
-  strokeWeight(1);
+  // Display score level
+  score(s);
 
   // Draw label
   label();
@@ -170,13 +196,22 @@ int fire(float min, float max, float[] zones) {
 }
 
 // Draw the graph
-void display(float y, float yoff, color col) {
+void graph(float y, float yoff, color col) {
   pushMatrix();
   translate(0, height-(yoff*scale));
   stroke(col);
   line(x, 0, x, (-y*scale));
   noStroke();
   popMatrix();
+}
+
+void score(float s) {
+  // Draw the score
+  stroke(255);
+  strokeWeight(10);
+  fill(255, 0, 0);
+  ellipse(width/2, height-s, 20, 20);
+  strokeWeight(1);
 }
 
 
@@ -191,7 +226,7 @@ void label() {
   }
   fill(255);
   text("Press TAB to change WAVE TYPE: " + types[type] + "\t\t\t(mouseY)\tAMP: " + amplitude + "\t\t\t(mouseX)\tFREQ: " + frequency, 10, 20);
-  text("Pres NUM KEY to turn on VOICE: " + waveTypes + "\t\t\tSelected Voice: " + voice.index, 10, 40 );
+  text("Pres NUM KEY to turn on VOICE: " + waveTypes + "\t\t\tSelected Voice: " + (voice.index+1) + "\t\t\tCeiling Factor: " + ceilingFactor, 10, 40);
 }
 
 void mouseMoved() {
@@ -217,8 +252,16 @@ void keyPressed() {
     type++;
     type%=types.length;
     break;
+  case UP:
+    ceilingFactor+=10;
+    break;
+  case DOWN:
+    ceilingFactor-=10;
+    break;
   }
 
+  ceilingFactor = constrain(ceilingFactor, 1, 100);
+  
   if (key == 32) {
     type++;
     type%=types.length;

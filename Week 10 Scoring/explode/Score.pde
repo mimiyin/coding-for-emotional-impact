@@ -5,13 +5,12 @@ class Score {
     c = _c;
   }
 
-  void update(float change) {
-    //c.update(0, 0, change, 0);
-    c.update(change, 0, 0, 0);
+  void update(int dir) {
+    c.adjust(dir);
   }
 
   float calc() {
-    return c.run();
+    return c.calc();
   }
 }
 
