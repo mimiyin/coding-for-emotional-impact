@@ -158,8 +158,8 @@ Option 3: Roll your own. Create your own polyphonic compositions from scratch.
 - Create something polyphonic
 - Final project proposal with:
  - Title
- - Environment: Describe the physical environment. 
- - Audience: Describe the person who's experiencing your composition.
+ - Environment: A description of the physical environment. 
+ - Audience: A description of the person who's experiencing your composition.
  - Narrative arc: Provide a verbal description as well as graphs.
 
 ### Week 10: Present proposal final project
