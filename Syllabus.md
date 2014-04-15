@@ -156,7 +156,7 @@ Option 3: Roll your own. Create your own polyphonic compositions from scratch.
 - 
 #### HW 9 Due Mon Apr 21 | [Post to HW Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
 - Create something polyphonic
-- Final project proposal with:
+- Prepare a 5 minute presentation for your final project proposal including:
  - Title
  - Environment: A description of the physical environment. 
  - Audience: A description of the person who's experiencing your composition.
