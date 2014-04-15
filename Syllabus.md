@@ -153,13 +153,22 @@ Option 2: Customize the examples from class.
 
 Option 3: Roll your own. Create your own polyphonic compositions from scratch.
 - Check out [Chorus](https://github.com/mimiyin/coding-for-emotional-impact/tree/master/Week%208-9%20Polyphonic/Chorus) for an example of how to make the voices change and turn on and off on auto-pilot (requires [SoundCipher](http://explodingart.com/soundcipher/))
-
+- 
+#### HW 9 Due Mon Apr 21 | [Post to HW Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
+- Create something polyphonic
+- Final project proposal with:
+ - Title
+ - Environment: Describe the physical environment. 
+ - Audience: Describe the person who's experiencing your composition.
+ - Narrative arc: Provide a verbal description as well as graphs.
 
 ### Week 10: Present proposal final project
 
 ### Week 11: 8 of you will present works-in-progress
+- Aaron, Wyna, Kate, Laura, Sagar, Federico, Ken, Alejandro
 
 ### Week 12: 8 of you will present final projects
+- Neva, Karam, Zoe, Aankit, Michelle, Susanne, Sam, Regina
 
 ============================
 ## Grading
