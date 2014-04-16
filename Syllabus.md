@@ -165,10 +165,10 @@ Option 3: Roll your own. Create your own polyphonic compositions from scratch.
 ### Week 10: Present proposal final project
 
 ### Week 11: 8 of you will present works-in-progress
-- Aaron, Wyna, Kate, Laura, Sagar, Federico, Ken, Alejandro
+- Aaron, Wyna, Kate, Laura, Susane, Federico, Ken, Alejandro
 
 ### Week 12: 8 of you will present final projects
-- Neva, Karam, Zoe, Aankit, Michelle, Susanne, Sam, Regina
+- Neva, Karam, Zoe, Aankit, Michelle, Sagar, Sam, Regina
 
 ============================
 ## Grading
