@@ -20,7 +20,12 @@ void setup() {
 
 void draw() {
   background(0);
-
+  
+  // After 5 seconds, change wave for voice 0 to a Tan wave
+  if(frameCount% 300 == 0) {
+     voices.get(0).init(new Tan(0, 0.01, 100, 0));    
+  }
+  
   // Run each voice
   for (int i = 0; i < voices.size(); i++) {
     Voice thisVoice = voices.get(i);
