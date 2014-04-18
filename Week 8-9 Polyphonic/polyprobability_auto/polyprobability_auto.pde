@@ -17,9 +17,13 @@ void setup() {
 void draw() {
   background(0);
   
-  // After 5 seconds, change wave for voice 0 to a Tan wave
-  if(frameCount% 300 == 0) {
-     voices.get(0).init(new Tan(0, 0.01, 100, 0));    
+  // After 5 seconds, change wave for voice 0 to a high-frequency, high-amplitude Tan wave
+  if(frameCount == 300) {
+     voices.get(0).init(new Tan(0, 0.05, 500, 0));    
+  }  
+  //After another 5 seconds, change wave for voice 0 back to original Sine wave 
+  else if(frameCount == 600) {
+    voices.get(0).change(0);
   }
 
   // Calculate offsets and values both
