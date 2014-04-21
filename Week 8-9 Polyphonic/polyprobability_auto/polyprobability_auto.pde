@@ -25,6 +25,10 @@ void draw() {
   else if(frameCount == 600) {
     voices.get(0).change(0);
   }
+  //After another 5 seconds, modulate the frequency and amplitude of voice O's wave
+  else if(frameCount == 900) {
+    voices.get(0).mod(0.05, 250, 0); 
+  }
 
   // Calculate offsets and values both
   // for graphing and picking a voice
