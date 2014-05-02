@@ -167,8 +167,32 @@ Option 3: Roll your own. Create your own polyphonic compositions from scratch.
 ### Week 11: 8 of you will present works-in-progress
 - Aaron, Wyna, Kate, Laura, Susane, Federico, Ken, Alejandro
 
+#### Presentation Guidelines
+- Prepare a 5-10 minute presentation.
+- What was your original idea? Where has it evolved to after a week? What have you discarded? What have you changed? What have you added? How has your “narrative” developed?
+- Show something working! 
+ - What have you tried? 
+ - What did you user test? What were the results? 
+ - Show a couple of iterations of the work you’ve done. What works about them? What doesn’t?
+- What’s next?
+ - What are you going to try next?
+ - What do you think you’ll have by the end of the 2nd week?
+- Any questions for the class?
+ - Technical: How should I approach…
+ - Conceptual: What’s more effective…
+
+- Please be sure to post documentation of your progress to the HW Wiki so we can zip through your work  in a lightning round at the end of class. We’ll have about 5 minutes to spend on each person.
+
 ### Week 12: 8 of you will present final projects
 - Neva, Karam, Zoe, Aankit, Michelle, Sagar, Sam, Regina
+
+#### Presentation Guidelines
+- Prepare a 5-10 minute presentation.
+- Demo what you’ve done!
+- Walk us through your narrative. What are your favorite parts. What’s not quite right yet?
+- Tell us how you did it! Visual aids, diagrams are always helpful.
+- How’d you get here? Did you user test? What did you try? What did you throw away, what did you keep? Show us earlier iterations.
+- Those of you who presented last week, please post a link to video documentation of your final so we can do a round of rapid-fire viewing at the end of class.
 
 ============================
 ## Grading
