@@ -192,6 +192,7 @@ Option 3: Roll your own. Create your own polyphonic compositions from scratch.
 - Walk us through your narrative. What are your favorite parts. What’s not quite right yet?
 - Tell us how you did it! Visual aids, diagrams are always helpful.
 - How’d you get here? Did you user test? What did you try? What did you throw away, what did you keep? Show us earlier iterations.
+
 - Those of you who presented last week, please post a link to video documentation of your final so we can do a round of rapid-fire viewing at the end of class.
 
 ============================
