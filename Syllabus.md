@@ -180,7 +180,6 @@ Option 3: Roll your own. Create your own polyphonic compositions from scratch.
 - Any questions for the class?
  - Technical: How should I approach…
  - Conceptual: What’s more effective…
-
 - Please be sure to post documentation of your progress to the HW Wiki so we can zip through your work  in a lightning round at the end of class. We’ll have about 5 minutes to spend on each person.
 
 ### Week 12: 8 of you will present final projects
@@ -192,7 +191,6 @@ Option 3: Roll your own. Create your own polyphonic compositions from scratch.
 - Walk us through your narrative. What are your favorite parts. What’s not quite right yet?
 - Tell us how you did it! Visual aids, diagrams are always helpful.
 - How’d you get here? Did you user test? What did you try? What did you throw away, what did you keep? Show us earlier iterations.
-
 - Those of you who presented last week, please post a link to video documentation of your final so we can do a round of rapid-fire viewing at the end of class.
 
 ============================
