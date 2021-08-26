@@ -8,7 +8,7 @@ More details to come! [Full description.](#full)
 Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https://itp.nyu.edu/inwiki/Signup/Mimi) | Join our [class mailing list](https://groups.google.com/a/itp.nyu.edu/forum/#!forum/cei-spring2014) | [Homework Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
 
 
-## Syllabus (Work in Progress)
+## Syllabus (Work-in Progress)
 ###Week 1: Seeing, Hearing, Sensing, Feeling Through the Lens of Patterns
 - What is narrative arc? What is composition? What are its basic building blocks?
 - What does it mean to compose narrative arc computationally?
